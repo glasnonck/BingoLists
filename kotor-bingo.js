@@ -263,4 +263,4 @@ bingoList[25] = [
   { name: "Kill Darth Malak", types: ["endgame"] },
 ];
 
-$(function () { bingo(bingoList, 5); });
+$(function () { bingo(bingoList, 5, bingoListVersion); });
