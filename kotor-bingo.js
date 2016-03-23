@@ -95,7 +95,7 @@ bingoList[9] = [
 bingoList[10] = [
   { name: "Luxum Crystal", types: ["power_crystal"] },
   { name: "Phond Crystal", types: ["power_crystal"] },
-  { name: "Solari Crystal", types: ["power_crystal"] },
+  { name: "Solari Crystal", types: ["power_crystal","solari"] },
   { name: "One of each Pazaak Card", types: ["pazaak","purchase"] },
   { name: "Purchase a store's entire inventory", types: ["purchase"] },
   { name: "150 Maximum Vitality", types: ["attributes"] },
@@ -106,19 +106,19 @@ bingoList[10] = [
 // Kashyyyk tasks
 bingoList[11] = [
   { name: "Strand Zaalbar on Kashyyyk", types: ["companions"] },
-  { name: "Bacca's Ceremonial Blade", types: ["zaalbar","sword"] },
+  { name: "Bacca's Ceremonial Blade", types: ["zaalbar","sword","ritual_beast"] },
   { name: "Circlet of Saresh", types: ["head"] },
   { name: "Complete \"Hidden Hunters\"", types: [] },
   { name: "Complete \"Honest Debt\"", types: [] },
   { name: "20 tach glands", types: ["tach"] },
-  { name: "Three Viper Kinrath corpses", types: [] },
+  { name: "Three Viper Kinrath corpses", types: ["ritual_beast"] },
   { name: "Czerka Corp. Resource ID", types: [] },
   { name: "Three Unique Bowcasters", types: ["zaalbar"] },
 ];
 // Korriban tasks
 bingoList[12] = [
   { name: "Kill Kel Algwinn", types: [] },
-  { name: "Qel-Droma Robes", types: [] },
+  { name: "Qel-Droma Robes", types: ["qel-droma"] },
   { name: "Naga Sadow's Poison Blade", types: ["tomb_raider","sword"] },
   { name: "Carbonite Projector Mark II", types: ["tomb_raider"] },
   { name: "Clear the Sith Academy", types: ["sith_bases","yuthura"] },
@@ -147,9 +147,9 @@ bingoList[14] = [
 ];
 // Medium multiplanet tasks
 bingoList[15] = [
-  { name: "Kill four terentateks", types: [] },
+  { name: "Kill four terentateks", types: ["terentatek"] },
   { name: "Resolve all three murder cases", types: ["murder","jolee"] },
-  { name: "All three Great Hunt journals", types: [] },
+  { name: "All three Great Hunt journals", types: ["solari","qel-droma","terentatek","ritual_beast"] },
   { name: "Win all 8 Swoop Races", types: ["swoops"] },
   { name: "Loot all Sith Lord Sarcophagi", types: ["tomb_raider"] },
   { name: "Both Holocrons", types: [] },
@@ -248,7 +248,7 @@ bingoList[23] = [
 // Endgame tasks
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["alignment"] },
-  { name: "All 5 Star Maps", types: ["endgame"] },
+  { name: "All 5 Star Maps", types: ["endgame","maps"] },
   { name: "Kill Keeper Orsaa", types: ["endgame"] },
   { name: "Kill the Trandoshan Smugglers", types: ["endgame"] },
   { name: "Mantle of the Force", types: ["rainbow_sabers"] },
