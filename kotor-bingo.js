@@ -1,4 +1,4 @@
-var bingoListVersion = 0.9;
+var bingoListVersion = 1.01;
 var bingoList = [];
 
 /* Very Easy Tasks - Taris and Early Dantooine */
