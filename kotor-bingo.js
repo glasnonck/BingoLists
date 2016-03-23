@@ -9,11 +9,11 @@ bingoList[1] = [
   { name: "Fully upgraded Bendak's Blaster", types: ["blaster_pistol","bounty"] },
   { name: "Fully upgraded Mission's Vibroblade", types: ["sword","companions"] },
   { name: "Fully upgraded armor, blaster, sword", types: [] },
-  { name: "Clear Davik's Estate", types: [] },
+  { name: "Clear Davik's Estate", types: ["davik"] },
 ];
 // Easy tasks
 bingoList[2] = [
-  { name: "Kill Calo Nord", types: [] },
+  { name: "Kill Calo Nord", types: ["calo"] },
   { name: "Recruit HK-47", types: ["hk-47","companions"] },
   { name: "Five available Jedi Party Members", types: [] },
   { name: "Sith Medallion", types: [] },
@@ -35,7 +35,7 @@ bingoList[4] = [
   { name: "Complete \"The Promised Land\"", types: [] },
   { name: "Break 18s on Taris Swoops", types: [] },
   { name: "Kill Gadon Thek", types: [] },
-  { name: "Davik's War Suit", types: ["medium_armor"] },
+  { name: "Davik's War Suit", types: ["medium_armor","davik"] },
   { name: "Free Hudrow", types: [] },
   { name: "Recruit Mission but not Zaalbar", types: ["mission","companions"] },
 ];
@@ -52,64 +52,66 @@ bingoList[5] = [
 /* Easy Tasks - Simple multiplanet, collection, and build */
 // Easy multiplanet tasks
 bingoList[6] = [
-  { name: "Recruit all Party Members", types: ["companions","juhani"] },
+  { name: "Above 30 Net Awareness skill", types: ["skills"] },
+  { name: "Opila Crystal", types: ["power_crystal"] },
+  { name: "Damind Crystal", types: ["power_crystal"] },
+  { name: "Destroy Droid (Force power)", types: ["force_master"] },
+  { name: "Force Storm", types: ["force_master"] },
+  { name: "Jurgan Kalta's Assault Rifle", types: ["blaster_rifle","purchase"] },
   { name: "Shoot down 40 Sith fighters", types: [] },
-  { name: "Solve the Rakatan Riddles", types: [] },
-  { name: "Five lightsabers of different colors", types: ["rainbow_sabers"] },
-  { name: "Sith Armor", types: [] },
-  { name: "Kill Darth Bandon", types: [] },
-  { name: "Calo, Davik, and Bandon's Armors", types: ["armor","light_armor","medium_armor","heavy_armor"] },
+  { name: "Kill Darth Bandon", types: ["bandon"] },
 ];
 // Easy Character Build tasks
 bingoList[7] = [
-  { name: "Sneak Attack IX", types: ["base_class"] },
-  { name: "Destroy Droid (Force power)", types: ["force_master"] },
-  { name: "Force Storm", types: ["force_master"] },
-  { name: "Above 30 Net Demolitions skill", types: [] },
-  { name: "Above 30 Net Stealth skill", types: [] },
-  { name: "Two Weapon Specializations", types: ["weapon_master"] },
-  { name: "Level 6 in two classes", types: ["class_levels"] },
+  { name: "Above 30 Net Stealth skill", types: ["skills"] },
+  { name: "Bondar Crystal", types: ["power_crystal"] },
+  { name: "Jenruax Crystal", types: ["power_crystal"] },
+  { name: "Sith Regenerator", types: ["implant","purchase"] },
+  { name: "Karakan Gauntlets", types: ["glove","purchase"] },
   { name: "Implant Level 3", types: [] },
   { name: "Dark Side Mastery", types: ["alignment"] },
+  { name: "Two Weapon Specializations", types: ["weapon_master"] },
 ];
 // Nonunique power crystals
 bingoList[8] = [
-  { name: "Bondar Crystal", types: ["power_crystal"] },
-  { name: "Opila Crystal", types: ["power_crystal"] },
-  { name: "Nextor Crystal", types: ["power_crystal"] },
-  { name: "Damind Crystal", types: ["power_crystal"] },
-  { name: "Jenruax Crystal", types: ["power_crystal"] },
+  { name: "Pistol Targetting Optics", types: ["head","purchase"] },
   { name: "Rubat Crystal", types: ["power_crystal"] },
+  { name: "Firkrann Crystal", types: ["power_crystal"] },
+  { name: "Sith Armor", types: [] },
+  { name: "Sneak Attack IX", types: ["base_class"] },
+  { name: "Level 6 in two classes", types: ["class_levels","level"] },
+  { name: "Recruit all Party Members", types: ["companions","juhani"] },
 ];
 // Easy purchase tasks
 bingoList[9] = [
-  { name: "Sith Regenerator", types: ["implant"] },
-  { name: "Karakan Gauntlets", types: ["glove"] },
-  { name: "Pistol Targetting Optics", types: ["head"] },
-  { name: "Jamoh Hogra's Battle Armor", types: ["medium_armor"] },
-  { name: "Jurgan Kalta's Assault Rifle", types: ["blaster_rifle"] },
-  { name: "Purchase a store's entire inventory", types: [] },
-  { name: "One of each Pazaak Card", types: ["pazaak"] },
+  { name: "Nextor Crystal", types: ["power_crystal"] },
+  { name: "Eralam Crystal", types: ["power_crystal"] },
+  { name: "Solve the Rakatan Riddles", types: [] },
+  { name: "Jamoh Hogra's Battle Armor", types: ["medium_armor","purchase"] },
+  { name: "Five lightsabers of different colors", types: ["rainbow_sabers"] },
+  { name: "Above 30 Net Demolitions skill", types: ["skills"] },
 ];
 // Unique power crystals
 bingoList[10] = [
   { name: "Luxum Crystal", types: ["power_crystal"] },
-  { name: "Eralam Crystal", types: ["power_crystal"] },
-  { name: "Firkrann Crystal", types: ["power_crystal"] },
   { name: "Phond Crystal", types: ["power_crystal"] },
   { name: "Solari Crystal", types: ["power_crystal"] },
+  { name: "One of each Pazaak Card", types: ["pazaak","purchase"] },
+  { name: "Purchase a store's entire inventory", types: ["purchase"] },
+  { name: "150 Maximum Vitality", types: ["attributes"] },
+  { name: "Calo, Davik, and Bandon's Armors", types: ["armor","light_armor","medium_armor","heavy_armor","bandon","calo","davik"] },
 ];
 
 /* Medium Tasks - Medium multiplanet and single star map*/
 // Kashyyyk tasks
 bingoList[11] = [
+  { name: "Strand Zaalbar on Kashyyyk", types: ["companions"] },
   { name: "Bacca's Ceremonial Blade", types: ["zaalbar","sword"] },
   { name: "Circlet of Saresh", types: ["head"] },
   { name: "Complete \"Hidden Hunters\"", types: [] },
   { name: "Complete \"Honest Debt\"", types: [] },
   { name: "20 tach glands", types: ["tach"] },
   { name: "Three Viper Kinrath corpses", types: [] },
-  { name: "Strand Zaalbar on Kashyyyk", types: ["companions"] },
   { name: "Czerka Corp. Resource ID", types: [] },
   { name: "Three Unique Bowcasters", types: ["zaalbar"] },
 ];
@@ -129,7 +131,7 @@ bingoList[13] = [
   { name: "150 Racing Bonds", types: ["swoops"] },
   { name: "20 Gaffi Sticks", types: ["gaffi","two_handed_melee"] },
   { name: "Defeat Furko Nellis' Tournament Deck", types: ["pazaak"] },
-  { name: "Two Krayt Dragon Pearls", types: ["komad"] },
+  { name: "Two Krayt Dragon Pearls", types: ["komad","power_crystal"] },
   { name: "Raito's Gaderffii", types: ["gaffi","two_handed_melee"] },
   { name: "Kill Griff", types:["griff"] },
 ];
@@ -194,17 +196,17 @@ bingoList[19] = [
   { name: "Kill Carth", types: ["endgame","gendered"] },
   { name: "Both Exoskeletons", types: ["armor","light_armor","medium_armor"] },
   { name: "Wear Light and Dark Equipment", types: ["endgame","alignment"] },
-  { name: "13 unique power crystals", types: ["power_crystal"] },
+  { name: "13 unique power crystals", types: ["power_crystal","power_crystal"] },
   { name: "Kill Hulas", types: [] },
   { name: "Complete all 11 bounty quests", types: ["bounty"] },
   { name: "Defeat every Pazaak player once", types: ["pazaak"] },
 ];
 // Hard Character Build tasks
 bingoList[20] = [
-  { name: "21 Base Charisma", types: [] },
-  { name: "40 points in all skills", types: [] },
-  { name: "Achieve Level 20", types: [] },
-  { name: "Level 8 in two classes", types: ["class_levels"] },
+  { name: "21 Base Charisma", types: ["attributes"] },
+  { name: "40 points in all skills", types: ["skills"] },
+  { name: "Achieve Level 20", types: ["level"] },
+  { name: "Level 8 in two classes", types: ["class_levels","level"] },
   { name: "Never use universal Force Powers", types: ["restriction"] },
 ];
 
@@ -224,7 +226,7 @@ bingoList[21] = [
 bingoList[22] = [
   { name: "Escape the Leviathan", types: [] },
   { name: "Only 2 available party members", types: ["companions","restriction"] },
-  { name: "Kill Darth Revan", types: ["endgame"] },
+  /*{ name: "Kill Darth Revan", types: ["endgame"] },*/
   { name: "Visit Dantooine after the Leviathan", types: [] },
   { name: "Kill Saul Karath", types: [] },
   { name: "Verpine Prototype Shield", types: [] },
