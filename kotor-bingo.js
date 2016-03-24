@@ -55,8 +55,8 @@ bingoList[6] = [
   { name: "Above 30 Net Awareness skill", types: ["skills"] },
   { name: "Opila Crystal", types: ["power_crystal"] },
   { name: "Damind Crystal", types: ["power_crystal"] },
-  { name: "Destroy Droid (Force power)", types: ["force_master"] },
-  { name: "Force Storm", types: ["force_master"] },
+  { name: "Destroy Droid (Force power)", types: ["feats_powers","force_master"] },
+  { name: "Force Storm", types: ["feats_powers","force_master"] },
   { name: "Jurgan Kalta's Assault Rifle", types: ["blaster_rifle","purchase"] },
   { name: "Shoot down 40 Sith fighters", types: [] },
   { name: "Kill Darth Bandon", types: ["bandon"] },
@@ -68,9 +68,9 @@ bingoList[7] = [
   { name: "Jenruax Crystal", types: ["power_crystal"] },
   { name: "Sith Regenerator", types: ["implant","purchase"] },
   { name: "Karakan Gauntlets", types: ["glove","purchase"] },
-  { name: "Implant Level 3", types: [] },
+  { name: "Implant Level 3", types: ["feats_powers"] },
   { name: "Dark Side Mastery", types: ["alignment"] },
-  { name: "Two Weapon Specializations", types: ["weapon_master"] },
+  { name: "Two Weapon Specializations", types: ["feats_powers","weapon_master"] },
 ];
 // Nonunique power crystals
 bingoList[8] = [
@@ -78,7 +78,7 @@ bingoList[8] = [
   { name: "Rubat Crystal", types: ["power_crystal"] },
   { name: "Firkrann Crystal", types: ["power_crystal"] },
   { name: "Sith Armor", types: [] },
-  { name: "Sneak Attack IX", types: ["base_class"] },
+  { name: "Sneak Attack IX", types: ["feats_powers","base_class"] },
   { name: "Level 6 in two classes", types: ["class_levels","level"] },
   { name: "Recruit all Party Members", types: ["companions","juhani"] },
 ];
@@ -96,10 +96,10 @@ bingoList[10] = [
   { name: "Luxum Crystal", types: ["power_crystal"] },
   { name: "Phond Crystal", types: ["power_crystal"] },
   { name: "Solari Crystal", types: ["power_crystal","solari"] },
-  { name: "One of each Pazaak Card", types: ["pazaak","purchase"] },
+  { name: "One of each Pazaak Card", types: ["collection","pazaak","purchase"] },
   { name: "Purchase a store's entire inventory", types: ["purchase"] },
   { name: "150 Maximum Vitality", types: ["attributes"] },
-  { name: "Calo, Davik, and Bandon's Armors", types: ["armor","light_armor","medium_armor","heavy_armor","bandon","calo","davik"] },
+  { name: "Calo, Davik, and Bandon's Armors", types: ["collection","light_armor","medium_armor","heavy_armor","bandon","calo","davik"] },
 ];
 
 /* Medium Tasks - Medium multiplanet and single star map*/
@@ -152,7 +152,7 @@ bingoList[15] = [
   { name: "All three Great Hunt journals", types: ["solari","qel-droma","terentatek","ritual_beast"] },
   { name: "Win all 8 Swoop Races", types: ["swoops"] },
   { name: "Loot all Sith Lord Sarcophagi", types: ["tomb_raider"] },
-  { name: "Both Holocrons", types: [] },
+  { name: "Both Holocrons", types: ["bastila","lashowe"] },
   { name: "Talk to Komad on Kashyyyk", types: ["komad"] },
   { name: "Talk to Yuthura on Dantooine", types: ["yuthura"] },
 ];
@@ -160,15 +160,13 @@ bingoList[15] = [
 /* Hard Tasks */
 // Easy GenoHaradan tasks
 bingoList[16] = [
-  { name: "Kill Rulan", types: ["bounty"] },
-  { name: "Kill Vorn", types: ["bounty"] },
-  { name: "Kill Zuulan", types: ["bounty"] },
-  { name: "Both Manaan GenoHaradan Bounties", types: ["bounty"] },
-  { name: "GenoHaradan Power Gloves", types: ["glove"] },
-  { name: "GenoHaradan Poison Blade", types: ["sword"] },
-  { name: "GenoHaradan Blaster", types: ["blaster_pistol"] },
-  { name: "GenoHaradan Stealth Unit", types: ["belt"] },
-  { name: "GenoHaradan Visor", types: ["head"] },
+  { name: "GenoHaradan Poison Blade", types: ["sword","genoharadan"] },
+  { name: "Kill Rulan", types: ["bounty","genoharadan"] },
+  { name: "GenoHaradan Visor", types: ["head","genoharadan"] },
+  { name: "Both Manaan GenoHaradan Bounties", types: ["bounty","genoharadan"] },
+  
+  { name: "All Master-level Blaster Feats", types: ["feats_powers","blaster_master"] },
+  { name: "All Master-level Melee Feats", types: ["feats_powers","melee_master"] },
 ];
 // Companion tasks
 bingoList[17] = [
@@ -183,26 +181,30 @@ bingoList[17] = [
 ];
 // Medium Character Build tasks
 bingoList[18] = [
-  { name: "All Master-level Blaster Feats", types: ["blaster_master"] },
-  { name: "All Master-level Melee Feats", types: ["melee_master"] },
+  { name: "Kill Vorn", types: ["bounty","genoharadan"] },
+  { name: "GenoHaradan Stealth Unit", types: ["belt","genoharadan"] },
+  { name: "Kill Zuulan", types: ["bounty","genoharadan"] },
+  { name: "GenoHaradan Blaster", types: ["blaster_pistol","genoharadan"] },
+  { name: "GenoHaradan Power Gloves", types: ["glove","genoharadan"] },
+
   { name: "All characters use blasters only", types: ["restriction"] },
-  { name: "All three Force Immunity feats", types: ["jedi_class"] },
-  { name: "Four third tier Force powers", types: ["force_master"] },
-  { name: "Master Caution, Empathy, Gear Head", types: ["utility_master"] },
+  { name: "All three Force Immunity feats", types: ["feats_powers","jedi_class"] },
+  { name: "Four third tier Force powers", types: ["feats_powers","force_master"] },
 ];
 // Medium tasks (grab bag)
 bingoList[19] = [
   { name: "Fully upgraded Baragwin Assault Blade", types: ["baragwin","sword"] },
   { name: "Kill Carth", types: ["endgame","gendered"] },
-  { name: "Both Exoskeletons", types: ["armor","light_armor","medium_armor"] },
+  { name: "Both Exoskeletons", types: ["collection","light_armor","medium_armor"] },
   { name: "Wear Light and Dark Equipment", types: ["endgame","alignment"] },
   { name: "13 unique power crystals", types: ["power_crystal","power_crystal"] },
-  { name: "Kill Hulas", types: [] },
+  { name: "Kill Hulas", types: ["genoharadan"] },
   { name: "Complete all 11 bounty quests", types: ["bounty"] },
   { name: "Defeat every Pazaak player once", types: ["pazaak"] },
 ];
 // Hard Character Build tasks
 bingoList[20] = [
+  { name: "Master Caution, Empathy, Gear Head", types: ["feats_powers","utility_master"] },
   { name: "21 Base Charisma", types: ["attributes"] },
   { name: "40 points in all skills", types: ["skills"] },
   { name: "Achieve Level 20", types: ["level"] },
@@ -230,20 +232,20 @@ bingoList[22] = [
   { name: "Visit Dantooine after the Leviathan", types: [] },
   { name: "Kill Saul Karath", types: [] },
   { name: "Verpine Prototype Shield", types: [] },
-  { name: "Dominator Gauntlets", types: [] },
+  { name: "Dominator Gauntlets", types: ["glove"] },
   { name: "Clear the Leviathan", types: [] },
 ];
 // Hard collection tasks
 bingoList[23] = [
-  { name: "All 16 Implants", types: ["implant"] },
-  { name: "All 18 Belts", types: ["belt"] },
-  { name: "All 12 Gloves", types: ["glove"] },
-  { name: "All 14 Light Armors", types: ["light_armor"] },
-  { name: "All 14 Medium Armors", types: ["medium_armor"] },
-  { name: "All 23 Blaster Pistols", types: ["blaster_pistol"] },
-  { name: "All 14 Two-Handed Melee Weapons", types: ["two_handed_melee"] },
-  { name: "All 8 Heavy Armors", types: ["heavy_armor"] },
-  { name: "All Baragwin items", types: ["baragwin"] },
+  { name: "All 16 Implants", types: ["collection","implant"] },
+  { name: "All 18 Belts", types: ["collection","belt"] },
+  { name: "All 12 Gloves", types: ["collection","glove"] },
+  { name: "All 14 Light Armors", types: ["collection","light_armor"] },
+  { name: "All 14 Medium Armors", types: ["collection","medium_armor"] },
+  { name: "All 23 Blaster Pistols", types: ["collection","blaster_pistol"] },
+  { name: "All 14 Two-Handed Melee Weapons", types: ["collection","two_handed_melee"] },
+  { name: "All 8 Heavy Armors", types: ["collection","heavy_armor"] },
+  { name: "All 11 Baragwin items", types: ["collection","baragwin"] },
 ];
 // Endgame tasks
 bingoList[24] = [
