@@ -44,7 +44,7 @@ bingoList[5] = [
   { name: "20 tach glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban","Hunt"] },
   { name: "Sneak Attack IX", types: ["Character"] },
-  { name: "Shoot down 40 Sith Fighters", types: ["Misc"] },
+  { name: "Shoot down 30 Sith Fighters", types: ["Misc"] },
 ];
 bingoList[6] = [
   { name: "Kill a rancor", types: ["Taris"] },
