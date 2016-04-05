@@ -1,4 +1,4 @@
-var bingoListVersion = "2.0";
+var bingoListVersion = "2.1";
 var bingoList = [];
 
 bingoList[1] = [
@@ -32,7 +32,7 @@ bingoList[4] = [
   { name: "Damind Crystal", types: ["Crystal"] },
   { name: "Rakghoul Serum", types: ["Taris"] },
   { name: "Kill an Albino Kath Hound", types: ["Dantooine"] },
-  { name: "Rescue the Mandalorian on Korriban", types: ["Korriban"] },
+  { name: "Rescue the Mandalorian on Korriban", types: ["Mandos", "Korriban"] },
   { name: "Force Storm", types: ["Character"] },
   { name: "Complete \"The Trouble with Gizka\"", types: [] },
   { name: "Solve the Rakatan Riddles", types: ["Misc"] },
@@ -42,9 +42,10 @@ bingoList[5] = [
   { name: "Convict both Rickard and Handon", types: ["Dantooine","Murder"] },
   { name: "Opila Crystal", types: ["Crystal","Tatooine"] },
   { name: "20 tach glands", types: ["Kashyyyk"] },
-  { name: "Qel-Droma Robes", types: ["Korriban","Hunt"] },
+  { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
   { name: "Shoot down 30 Sith Fighters", types: ["Misc"] },
+  { name: "ICE Breaker", types: ["Leviathan"] },
 ];
 bingoList[6] = [
   { name: "Kill a rancor", types: ["Taris"] },
@@ -70,9 +71,10 @@ bingoList[8] = [
   { name: "Kill all kinrath on Dantooine", types: ["Dantooine"] },
   { name: "Defeat Furko Nellis's Tournament Deck", types: ["Pazaak","Tatooine"] },
   { name: "Strand Zaalbar on Kashyyyk", types: ["Kashyyyk","Zaalbar","Party"] },
-  { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt"] },
+  { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
   { name: "Jenruax Crystal", types: ["Crystal"] },
   { name: "Fully Repair HK-47", types: ["Party"] },
+  { name: "Return Sasha to Dantooine", types: ["Party"] },
 ];
 bingoList[9] = [
   { name: "Fully upgraded Mission's Vibroblade", types: ["Mission","Upgrade"] },
@@ -91,12 +93,12 @@ bingoList[10] = [
   { name: "Kiss Bastila", types: ["Party"] },
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
   { name: "Cassus Fett's Battle Armor", types: ["Credits"] },
-  { name: "Mission Vao becomes a Jedi", types: ["Mission","Party","Dantooine"] },
+  { name: "Mission Vao wields a lightsaber", types: ["Mission","Party","Dantooine"] },
 ];
 bingoList[11] = [
   { name: "Two of Bendak's Blasters", types: ["Taris","Bounty"] },
   { name: "Fully upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade"] },
-  { name: "Kill Griff", types: ["Mission","Tatooine"] },
+  { name: "Kill Griff", types: ["Mission","Tatooine","Party"] },
   { name: "Phond Crystal", types: ["Crystal","Korriban","Tombs"] },
   { name: "GenoHaradan Poison Blade", types: ["Bounty","Manaan"] },
   { name: "All Master-level Blaster Feats", types: ["Character"] },
@@ -127,11 +129,12 @@ bingoList[14] = [
   { name: "Both Manaan GenoHaradan Bounties", types: ["Manaan","Bounty"] },
   { name: "Four third tier Force Powers", types: ["Character"] },
   { name: "Naga Sadow's Poison Blade", types: ["Korriban","Tombs"] },
-  { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt"] },
+  { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt","AlignedItem"] },
+  { name: "Complete \"Mission for the Republic\"", types: ["Manaan"] },
 ];
 bingoList[15] = [
   { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty"] },
-  { name: "Complete all Taris Bounty Quests", types: ["Taris","Bounty"] },
+  { name: "Complete all 5 Taris Bounty Quests", types: ["Taris","Bounty"] },
   { name: "Complete \"Mandalorian Raiders\"", types: ["Dantooine","Mandos"] },
   { name: "Clear Davik's Estate", types: ["Taris"] },
   { name: "Complete \"Hidden Hunters\"", types: ["Kashyyyk","Mandos"] },
@@ -148,34 +151,36 @@ bingoList[16] = [
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
   { name: "150 Maximum Vitality", types: ["Character"] },
+  { name: "Complete all Dantooine Quests", types: ["Dantooine"] },
 ];
 bingoList[17] = [
   { name: "All characters use blasters only", types: ["Character","Restriction"] },
   { name: "Moisture Vaporators", types: ["Tatooine","HK"] },
   { name: "Luxum Crystal", types: ["Crystal","Manaan"] },
   { name: "Three Unique Bowcasters", types: ["Kashyyyk"] },
-  { name: "Loot all Sith Lord Monuments", types: ["Tombs","Korriban"] },
+  { name: "All four Sith Lord Artifacts", types: ["Tombs","Korriban","AlignedItem"] },
   { name: "Kill four terentateks", types: ["Hunt"] },
   { name: "Complete \"Threat from Xor\"", types: ["Juhani","Party"] },
   { name: "300 Maximum Force Points", types: ["Character"] },
+  { name: "Complete all Kashyyyk Quests", types: ["Kashyyyk"] },
 ];
 bingoList[18] = [
-  { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
   { name: "40 points in all skills", types: ["Character"] },
   { name: "Purchase a store's entire inventory", types: ["Credits"] },
   { name: "10 Prestige Points", types: ["Korriban"] },
   { name: "Get banned from Manaan", types: ["Manaan"] },
   { name: "Zaalbar wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
   { name: "13 Unique power crystals", types: ["Crystal"] },
+  { name: "Complete all Manaan Quests", types: ["Manaan"] },
 ];
 bingoList[19] = [
   { name: "Kill Hulas", types: ["Bounty"] },
   { name: "Both Exoskeletons", types: ["Credits"] },
   { name: "21 Base Charisma", types: ["Character"] },
   { name: "Clear the Hrakert Rift Station", types: ["Manaan"] },
-  { name: "Kill Carth", types: ["Party"] },
   { name: "Raito's Gaderffii", types: ["Tatooine"] },
-  { name: "Ice Breaker", types: ["Leviathan"] },
+  { name: "Five alignment-restricted items", types: ["Tombs","AlignedItem"] },
+  { name: "Complete all Tatooine Quests", types: ["Tatooine"] },
 ];
 bingoList[20] = [
   { name: "Clear the Sith Academy", types: ["Korriban","Bases"] },
@@ -183,7 +188,9 @@ bingoList[20] = [
   { name: "Complete all 11 bounty quests", types: ["Bounty"] },
   { name: "Achieve Level 20", types: ["Character"] },
   { name: "100,000 Credits", types: ["Credits"] },
-  { name: "Complete all companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
+  { name: "Wear Light and Dark Equipment", types: ["Endgame","AlignedItem"] },
+  { name: "Gameplay set to Difficult", types: ["Restriction"] },
+  { name: "Complete all Korriban Quests", types: ["Korriban"] },
 ];
 bingoList[21] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor"] },
@@ -192,14 +199,16 @@ bingoList[21] = [
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband"] },
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
+  { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
 ];
 bingoList[22] = [
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Bosses"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
   { name: "Escape the Leviathan in a Space Suit", types: ["Leviathan","Endgame"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame"] },
-  { name: "Wear Light and Dark Equipment", types: ["Endgame"] },
   { name: "Only Two Available Party Members", types: ["Party","Leviathan"] },
+  { name: "Complete all companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[23] = [
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
@@ -207,7 +216,7 @@ bingoList[23] = [
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "50 quests completed in journal", types: ["Misc"] },
   { name: "Complete map for four planets", types: ["Misc"] },
-  { name: "Light Side Mastery", types: ["Character","Alignment"] },
+  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
 ];
 bingoList[24] = [
   { name: "11 Unique Gloves", types: ["Collect","Gloves"] },
