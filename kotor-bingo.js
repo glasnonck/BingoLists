@@ -151,7 +151,7 @@ bingoList[16] = [
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
   { name: "150 Maximum Vitality", types: ["Character"] },
-  { name: "Complete all Dantooine Quests", types: ["Dantooine"] },
+  { name: "Complete all Dantooine Quests", types: ["Dantooine","Quests"] },
 ];
 bingoList[17] = [
   { name: "All characters use blasters only", types: ["Character","Restriction"] },
@@ -162,7 +162,7 @@ bingoList[17] = [
   { name: "Kill four terentateks", types: ["Hunt"] },
   { name: "Complete \"Threat from Xor\"", types: ["Juhani","Party"] },
   { name: "300 Maximum Force Points", types: ["Character"] },
-  { name: "Complete all Kashyyyk Quests", types: ["Kashyyyk"] },
+  { name: "Complete all Manaan Quests", types: ["Manaan","Quests"] },
 ];
 bingoList[18] = [
   { name: "40 points in all skills", types: ["Character"] },
@@ -171,7 +171,7 @@ bingoList[18] = [
   { name: "Get banned from Manaan", types: ["Manaan"] },
   { name: "Zaalbar wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
   { name: "13 Unique power crystals", types: ["Crystal"] },
-  { name: "Complete all Manaan Quests", types: ["Manaan"] },
+  { name: "Complete all Kashyyyk Quests", types: ["Kashyyyk","Quests"] },
 ];
 bingoList[19] = [
   { name: "Kill Hulas", types: ["Bounty"] },
@@ -180,7 +180,7 @@ bingoList[19] = [
   { name: "Clear the Hrakert Rift Station", types: ["Manaan"] },
   { name: "Raito's Gaderffii", types: ["Tatooine"] },
   { name: "Five alignment-restricted items", types: ["Tombs","AlignedItem"] },
-  { name: "Complete all Tatooine Quests", types: ["Tatooine"] },
+  { name: "Complete all Tatooine Quests", types: ["Tatooine","Quests"] },
 ];
 bingoList[20] = [
   { name: "Clear the Sith Academy", types: ["Korriban","Bases"] },
@@ -190,7 +190,7 @@ bingoList[20] = [
   { name: "100,000 Credits", types: ["Credits"] },
   { name: "Wear Light and Dark Equipment", types: ["Endgame","AlignedItem"] },
   { name: "Gameplay set to Difficult", types: ["Restriction"] },
-  { name: "Complete all Korriban Quests", types: ["Korriban"] },
+  { name: "Complete all Korriban Quests", types: ["Korriban","Quests"] },
 ];
 bingoList[21] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor"] },
@@ -214,7 +214,7 @@ bingoList[23] = [
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
-  { name: "50 quests completed in journal", types: ["Misc"] },
+  { name: "30 quests completed in journal", types: ["Misc","Quests"] },
   { name: "Complete map for four planets", types: ["Misc"] },
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
 ];
