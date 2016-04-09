@@ -1,4 +1,4 @@
-var bingoListVersion = "2.1";
+var bingoListVersion = "3.0";
 var bingoList = [];
 
 bingoList[1] = [
@@ -13,7 +13,7 @@ bingoList[1] = [
 bingoList[2] = [
   { name: "Blow up Matrik's apartment", types: ["Taris"] },
   { name: "Fully upgraded Echani Fiber Armor", types: ["Upgrade"] },
-  { name: "Recruit HK-47", types: ["Party"] },
+  { name: "Recruit HK-47", types: ["Party", "Tatooine"] },
   { name: "Sith Medallion", types: ["Korriban"] },
   { name: "Destroy Droid", types: ["Force power","Character"] },
   { name: "Bondar Crystal", types: ["Crystal"] },
@@ -74,7 +74,7 @@ bingoList[8] = [
   { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
   { name: "Jenruax Crystal", types: ["Crystal"] },
   { name: "Fully Repair HK-47", types: ["Party"] },
-  { name: "Return Sasha to Dantooine", types: ["Party"] },
+  { name: "Return Sasha to Dantooine", types: ["Party", "Zaalbar"] },
 ];
 bingoList[9] = [
   { name: "Fully upgraded Mission's Vibroblade", types: ["Mission","Upgrade"] },
@@ -96,8 +96,8 @@ bingoList[10] = [
   { name: "Mission Vao wields a lightsaber", types: ["Mission","Party","Dantooine"] },
 ];
 bingoList[11] = [
-  { name: "Two of Bendak's Blasters", types: ["Taris","Bounty"] },
-  { name: "Fully upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade"] },
+  { name: "Two of Bendak's Blasters", types: ["Taris","Bounty","Blasters"] },
+  { name: "Fully upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade","Blasters"] },
   { name: "Kill Griff", types: ["Mission","Tatooine","Party"] },
   { name: "Phond Crystal", types: ["Crystal","Korriban","Tombs"] },
   { name: "GenoHaradan Poison Blade", types: ["Bounty","Manaan"] },
@@ -106,7 +106,7 @@ bingoList[11] = [
 ];
 bingoList[12] = [
   { name: "Recruit Mission but not Zaalbar", types: ["Mission","Zaalbar","Party","Taris"] },
-  { name: "Kill Zuulan", types: ["Dantooine","Bounty"] },
+  { name: "Kill Zuulan", types: ["Dantooine","Bounty","Blasters"] },
   { name: "Give Griff a tach gland", types: ["Tatooine","Mission","Kashyyyk"] },
   { name: "Fully upgraded armor, blaster, and sword", types: ["Upgrade"] },
   { name: "Master Caution, Empathy, and Gear Head", types: ["Character"] },
@@ -115,7 +115,7 @@ bingoList[12] = [
 ];
 bingoList[13] = [
   { name: "Complete \"The Promised Land\"", types: ["Taris"] },
-  { name: "GenoHaradan Blaster", types: ["Dantooine","Bounty"] },
+  { name: "GenoHaradan Blaster", types: ["Dantooine","Bounty","Blasters"] },
   { name: "Kill Vorn", types: ["Tatooine","Bounty"] },
   { name: "Kill Jorak Uln", types: ["Korriban","Tombs"] },
   { name: "Kill Rulan", types: ["Kashyyyk","Bounty"] },
@@ -159,13 +159,13 @@ bingoList[17] = [
   { name: "Luxum Crystal", types: ["Crystal","Manaan"] },
   { name: "Three Unique Bowcasters", types: ["Kashyyyk"] },
   { name: "All four Sith Lord Artifacts", types: ["Tombs","Korriban","AlignedItem"] },
-  { name: "Kill four terentateks", types: ["Hunt"] },
   { name: "Complete \"Threat from Xor\"", types: ["Juhani","Party"] },
   { name: "300 Maximum Force Points", types: ["Character"] },
   { name: "Complete all Manaan Quests", types: ["Manaan","Quests"] },
 ];
 bingoList[18] = [
   { name: "40 points in all skills", types: ["Character"] },
+  { name: "Kill four terentateks", types: ["Hunt"] },
   { name: "Purchase a store's entire inventory", types: ["Credits"] },
   { name: "10 Prestige Points", types: ["Korriban"] },
   { name: "Get banned from Manaan", types: ["Manaan"] },
@@ -198,7 +198,6 @@ bingoList[21] = [
   { name: "Breathe the vacuum of space", types: ["Leviathan"] },
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband"] },
-  { name: "All 10 Armbands", types: ["Collect","Armband"] },
   { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
 ];
 bingoList[22] = [
@@ -207,32 +206,31 @@ bingoList[22] = [
   { name: "Escape the Leviathan in a Space Suit", types: ["Leviathan","Endgame"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame"] },
   { name: "Only Two Available Party Members", types: ["Party","Leviathan"] },
-  { name: "Complete all companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
-  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
+  { name: "All 10 Armbands", types: ["Collect","Armband"] },
 ];
 bingoList[23] = [
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
-  { name: "30 quests completed in journal", types: ["Misc","Quests"] },
+  { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "Complete map for four planets", types: ["Misc"] },
-  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
+  { name: "Complete all 8 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
 ];
 bingoList[24] = [
   { name: "11 Unique Gloves", types: ["Collect","Gloves"] },
-  { name: "Mantle of the Force", types: ["Credits"] },
-  { name: "Heart of the Guardian", types: ["Credits"] },
-  { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
+  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "All 5 Star Maps", types: ["Misc"] },
   { name: "Clear the Leviathan", types: ["Leviathan"] },
+  { name: "30 quests completed in journal", types: ["Misc","Quests"] },
 ];
 bingoList[25] = [
-  { name: "Kill all 28 Mandalorians", types: ["Mandos","Unknown World"] },
-  { name: "One of each Baragwin item", types: ["Credits"] },
   { name: "Clear all four Sith Strongholds", types: ["Bases"] },
   { name: "Ship Parts", types: ["Unknown World"] },
   { name: "Kill the One", types: ["Unknown World"] },
-  { name: "All 8 Heavy Armors", types: ["Heavy Armor","Collect","Credits","Unknown World"] },
+  { name: "Mantle of the Force", types: ["Credits"] },
+  { name: "Heart of the Guardian", types: ["Credits"] },
+  { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
 ];
 
 $(function () { bingo(bingoList, 5, bingoListVersion); });
