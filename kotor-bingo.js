@@ -13,7 +13,7 @@ bingoList[1] = [
 bingoList[2] = [
   { name: "Blow up Matrik's apartment", types: ["Taris"] },
   { name: "Fully upgraded Echani Fiber Armor", types: ["Upgrade"] },
-  { name: "Recruit HK-47", types: ["Party", "Tatooine"] },
+  { name: "Recruit HK-47", types: ["Party", "Tatooine", "HK"] },
   { name: "Sith Medallion", types: ["Korriban"] },
   { name: "Destroy Droid", types: ["Force power","Character"] },
   { name: "Bondar Crystal", types: ["Crystal"] },
@@ -73,7 +73,7 @@ bingoList[8] = [
   { name: "Strand Zaalbar on Kashyyyk", types: ["Kashyyyk","Zaalbar","Party"] },
   { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
   { name: "Jenruax Crystal", types: ["Crystal"] },
-  { name: "Fully Repair HK-47", types: ["Party"] },
+  { name: "Fully Repair HK-47", types: ["Party","HK"] },
   { name: "Return Sasha to Dantooine", types: ["Party", "Zaalbar"] },
 ];
 bingoList[9] = [
