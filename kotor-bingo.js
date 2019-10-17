@@ -213,7 +213,8 @@ bingoList[23] = [
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
-  { name: "Complete all 8 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
+  { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
+  { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
 ];
 bingoList[24] = [
   { name: "11 Unique Gloves", types: ["Collect","Gloves"] },
@@ -229,7 +230,6 @@ bingoList[25] = [
   { name: "Kill the One", types: ["Unknown World"] },
   { name: "Mantle of the Force", types: ["Credits"] },
   { name: "Heart of the Guardian", types: ["Credits"] },
-  { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
   { name: "Star Forge Robes", types: ["Misc", "Endgame"] },
 ];
 
