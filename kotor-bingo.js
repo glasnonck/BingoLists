@@ -1,4 +1,4 @@
-var bingoListVersion = "3.0";
+var bingoListVersion = "3.1";
 var bingoList = [];
 
 bingoList[1] = [
@@ -90,7 +90,7 @@ bingoList[10] = [
   { name: "Kill Juhani and Belaya", types: ["Dantooine","Korriban","Juhani","Party"] },
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
   { name: "Carbonite Projector Mark II", types: ["Korriban","Tombs"] },
-  { name: "Kiss Bastila", types: ["Party"] },
+  { name: "Kiss Bastila", types: ["Party", "Gender"] },
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
   { name: "Cassus Fett's Battle Armor", types: ["Credits"] },
   { name: "Mission Vao wields a lightsaber", types: ["Mission","Party","Dantooine"] },
@@ -204,7 +204,7 @@ bingoList[22] = [
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Bosses"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
   { name: "Escape the Leviathan in a Space Suit", types: ["Leviathan","Endgame"] },
-  { name: "Kill Darth Revan", types: ["Leviathan","Endgame"] },
+  { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
   { name: "Only Two Available Party Members", types: ["Party","Leviathan"] },
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
 ];
@@ -213,7 +213,6 @@ bingoList[23] = [
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
-  { name: "Complete map for four planets", types: ["Misc"] },
   { name: "Complete all 8 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
 ];
 bingoList[24] = [
