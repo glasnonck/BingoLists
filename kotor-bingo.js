@@ -15,7 +15,7 @@ bingoList[2] = [
   { name: "Fully upgraded Echani Fiber Armor", types: ["Upgrade"] },
   { name: "Recruit HK-47", types: ["Party", "Tatooine", "HK"] },
   { name: "Sith Medallion", types: ["Korriban"] },
-  { name: "Destroy Droid", types: ["Force power","Character"] },
+  { name: "Destroy Droid (Force Power)", types: ["Force power","Character"] },
   { name: "Bondar Crystal", types: ["Crystal"] },
   { name: "Exactly 0 Credits", types: ["Credits"] },
 ];
@@ -44,7 +44,7 @@ bingoList[5] = [
   { name: "20 tach glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
-  { name: "Shoot down 30 Sith Fighters", types: ["Misc"] },
+  { name: "Win four Fighter Skirmishes", types: ["Misc"] },
   { name: "ICE Breaker", types: ["Leviathan"] },
 ];
 bingoList[6] = [
@@ -121,6 +121,7 @@ bingoList[13] = [
   { name: "Kill Rulan", types: ["Kashyyyk","Bounty"] },
   { name: "All three Force Immunity Feats", types: ["Character"] },
   { name: "Both Holocrons", types: ["Tatooine","Korriban"] },
+  { name: "Download 5 Area Schematics", types: [] },
 ];
 bingoList[14] = [
   { name: "Visit Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
