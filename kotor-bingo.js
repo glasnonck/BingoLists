@@ -6,7 +6,7 @@ bingoList[1] = [
   { name: "Fully upgraded Republic Mod Armor", types: ["Upgrade"] },
   { name: "Rescue Tanis", types: ["Tatooine"] },
   { name: "Czerka Corp. Resource ID", types: ["Kashyyyk"] },
-  { name: "Kill the whimpering locker", types: ["Manaan"] },
+  { name: "Kill the whimpering locker", types: ["Manaan", "Alignment"] },
   { name: "Implant Level 3", types: ["Character"] },
   { name: "Kill Calo Nord", types: ["Bosses"] },
 ];
@@ -61,7 +61,7 @@ bingoList[7] = [
   { name: "Davik's War Suit", types: ["Taris","Bosses"] },
   { name: "Complete \"Sandral-Matale Feud\"", types: ["Dantooine"] },
   { name: "20 Gaffi Sticks", types: ["Tatooine"] },
-  { name: "Kill Kel Algwinn", types: ["Korriban"] },
+  { name: "Kill Kel Algwinn", types: ["Korriban", "Alignment"] },
   { name: "Complete \"Honest Debt\"", types: ["Kashyyyk"] },
   { name: "Nextor Crystal", types: ["Crystal"] },
   { name: "Pistol Targetting Optics", types: ["Credits"] },
@@ -98,14 +98,14 @@ bingoList[10] = [
 bingoList[11] = [
   { name: "Two of Bendak's Blasters", types: ["Taris","Bounty","Blasters"] },
   { name: "Fully upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade","Blasters"] },
-  { name: "Kill Griff", types: ["Mission","Tatooine","Party"] },
+  { name: "Kill Griff", types: ["Mission","Tatooine","Party", "Alignment"] },
   { name: "Phond Crystal", types: ["Crystal","Korriban","Tombs"] },
   { name: "GenoHaradan Poison Blade", types: ["Bounty","Manaan"] },
   { name: "All Master-level Blaster Feats", types: ["Character"] },
   { name: "One of each Pazaak Card", types: ["Pazaak"] },
 ];
 bingoList[12] = [
-  { name: "Recruit Mission but not Zaalbar", types: ["Mission","Zaalbar","Party","Taris"] },
+  { name: "Download 5 Area Schematics", types: [] },
   { name: "Kill Zuulan", types: ["Dantooine","Bounty","Blasters"] },
   { name: "Give Griff a tach gland", types: ["Tatooine","Mission","Kashyyyk"] },
   { name: "Fully upgraded armor, blaster, and sword", types: ["Upgrade"] },
@@ -121,7 +121,6 @@ bingoList[13] = [
   { name: "Kill Rulan", types: ["Kashyyyk","Bounty"] },
   { name: "All three Force Immunity Feats", types: ["Character"] },
   { name: "Both Holocrons", types: ["Tatooine","Korriban"] },
-  { name: "Download 5 Area Schematics", types: [] },
 ];
 bingoList[14] = [
   { name: "Visit Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
@@ -231,6 +230,7 @@ bingoList[25] = [
   { name: "Mantle of the Force", types: ["Credits"] },
   { name: "Heart of the Guardian", types: ["Credits"] },
   { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
+  { name: "Star Forge Robes", types: ["Misc", "Endgame"] },
 ];
 
 $(function () { bingo(bingoList, 5, bingoListVersion); });
