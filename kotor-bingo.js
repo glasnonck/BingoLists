@@ -69,7 +69,7 @@ bingoList[7] = [
 ];
 bingoList[8] = [
   { name: "Free Hudrow", types: ["Taris"] },
-  { name: "Kill all kinrath on Dantooine", types: ["Dantooine"] },
+  { name: "Kill a Hive Kinrath", types: ["Dantooine"] },
   { name: "Defeat Furko Nellis's Tournament Deck", types: ["Pazaak","Tatooine"] },
   { name: "Strand Zaalbar on Kashyyyk", types: ["Kashyyyk","Zaalbar","Party"] },
   { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
