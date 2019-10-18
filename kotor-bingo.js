@@ -228,7 +228,7 @@ bingoList[25] = [
   { name: "Clear all four Sith Strongholds", types: ["Bases"] },
   { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
-  { name: "Star Forge Robes", types: ["Misc", "Endgame"] },
+  { name: "Sith Power Gauntlets", types: ["Misc", "Gloves"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
 ];
