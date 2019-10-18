@@ -41,7 +41,7 @@ bingoList[4] = [
 bingoList[5] = [
   { name: "Kill Kandon Ark", types: ["Taris"] },
   { name: "Convict both Rickard and Handon", types: ["Dantooine","Murder"] },
-  { name: "Opila Crystal", types: ["Crystal","Tatooine"] },
+  { name: "Opila Crystal", types: ["Crystal"] },
   { name: "20 tach glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
