@@ -172,7 +172,7 @@ bingoList[18] = [
   { name: "10 Prestige Points", types: ["Korriban"] },
   { name: "Get banned from Manaan", types: ["Manaan"] },
   { name: "Zaalbar wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
-  { name: "13 Unique power crystals", types: ["Crystal"] },
+  { name: "13 Unique Lightsaber Power Crystals", types: ["Crystals", "Collect"] },
   { name: "Complete all Kashyyyk Quests", types: ["Kashyyyk","Quests"] },
 ];
 bingoList[19] = [
@@ -225,11 +225,12 @@ bingoList[24] = [
   { name: "Kill the One", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Sabers", "Credits"] },
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[25] = [
   { name: "Clear all four Sith Strongholds", types: ["Clear"] },
   { name: "Kill all 28 Mandalorians", types: ["Mandos"] },
-  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
+  { name: "All 15 Lightsaber Power Crystals", types: ["Crystals", "Collect"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
