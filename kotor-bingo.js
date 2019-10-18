@@ -196,7 +196,6 @@ bingoList[20] = [
 ];
 bingoList[21] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor"] },
-  { name: "Breathe the vacuum of space", types: ["Leviathan"] },
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
