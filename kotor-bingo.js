@@ -1,4 +1,4 @@
-var bingoListVersion = "3.03";
+var bingoListVersion = "3.04";
 var bingoList = [];
 
 bingoList[1] = [
@@ -32,6 +32,7 @@ bingoList[4] = [
   { name: "Damind Crystal", types: ["Crystal"] },
   { name: "Rakghoul Serum", types: ["Taris"] },
   { name: "Kill an Albino Kath Hound", types: ["Dantooine"] },
+  { name: "Kill a Shyrack Alpha", types: ["Korriban"] },
   { name: "Rescue the Mandalorian on Korriban", types: ["Mandos", "Korriban"] },
   { name: "Force Storm", types: ["Character"] },
   { name: "Complete \"The Trouble with Gizka\"", types: [] },
@@ -44,7 +45,7 @@ bingoList[5] = [
   { name: "20 tach glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
-  { name: "Win four Fighter Skirmishes", types: ["Misc"] },
+  { name: "Win 4 Fighter Skirmishes", types: ["Misc"] },
   { name: "ICE Breaker", types: ["Leviathan"] },
 ];
 bingoList[6] = [
@@ -55,7 +56,7 @@ bingoList[6] = [
   { name: "Eralam Crystal", types: ["Crystal"] },
   { name: "Two Weapon Specializations", types: ["Character"] },
   { name: "Karakan Gauntlets", types: ["Credits"] },
-  { name: "Five lightsabers of different colors", types: ["Misc"] },
+  { name: "5 lightsabers of different colors", types: ["Misc"] },
 ];
 bingoList[7] = [
   { name: "Davik's War Suit", types: ["Taris","Bosses"] },
@@ -78,7 +79,7 @@ bingoList[8] = [
 ];
 bingoList[9] = [
   { name: "Fully upgraded Mission's Vibroblade", types: ["Mission","Upgrade"] },
-  { name: "Redeem Ajunta Pall's spirit", types: ["Korriban","Tombs"] },
+  { name: "Carbonite Projector Mark II", types: ["Korriban","Tombs"] },
   { name: "Firkrann Crystal", types: ["Crystal","Korriban"] },
   { name: "Defeat Twitch", types: ["Taris","Bounty"] },
   { name: "Dark Side Mastery", types: ["Character","Alignment"] },
@@ -89,7 +90,7 @@ bingoList[10] = [
   { name: "Break 18s on Taris Swoops", types: ["Taris"] },
   { name: "Kill Juhani and Belaya", types: ["Dantooine","Korriban","Juhani","Party"] },
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
-  { name: "Carbonite Projector Mark II", types: ["Korriban","Tombs"] },
+  { name: "Redeem Ajunta Pall's spirit", types: ["Korriban","Tombs"] },
   { name: "Kiss Bastila", types: ["Party", "Gender"] },
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
   { name: "Cassus Fett's Battle Armor", types: ["Credits"] },
@@ -136,7 +137,7 @@ bingoList[15] = [
   { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty"] },
   { name: "Complete all 5 Taris Bounty Quests", types: ["Taris","Bounty"] },
   { name: "Complete \"Mandalorian Raiders\"", types: ["Dantooine","Mandos"] },
-  { name: "Clear Davik's Estate", types: ["Taris"] },
+  { name: "Clear Davik's Estate", types: ["Taris", "Clear"] },
   { name: "Complete \"Hidden Hunters\"", types: ["Kashyyyk","Mandos"] },
   { name: "Level 6 in two classes", types: ["Character"] },
   { name: "Token from tortured Selkath", types: ["Manaan"] },
@@ -146,7 +147,7 @@ bingoList[16] = [
   { name: "All Three Great Hunt Journals", types: ["Hunt"] },
   { name: "Defeat two Defense Droids", types: ["Kashyyyk"] },
   { name: "Fully upgraded Baragwin Assault Blade", types: ["Upgrade"] },
-  { name: "Clear the Sand People Enclave", types: ["Tatooine"] },
+  { name: "Clear the Sand People Enclave", types: ["Tatooine", "Clear"] },
   { name: "Complete \"Finding Dustil\"", types: ["Party"] },
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
@@ -177,14 +178,14 @@ bingoList[19] = [
   { name: "Kill Hulas", types: ["Bounty"] },
   { name: "Both Exoskeletons", types: ["Credits"] },
   { name: "21 Base Charisma", types: ["Character"] },
-  { name: "Clear the Hrakert Rift Station", types: ["Manaan"] },
+  { name: "Clear the Hrakert Rift Station", types: ["Manaan", "Clear"] },
   { name: "Raito's Gaderffii", types: ["Tatooine"] },
   { name: "Five alignment-restricted items", types: ["Tombs","AlignedItem"] },
   { name: "Complete all Tatooine Quests", types: ["Tatooine","Quests"] },
 ];
 bingoList[20] = [
-  { name: "Clear the Sith Academy", types: ["Korriban","Bases"] },
-  { name: "Clear both Sith Bases", types: ["Taris","Manaan","Bases"] },
+  { name: "Clear the Sith Academy", types: ["Korriban","Clear"] },
+  { name: "Clear both Sith Bases", types: ["Taris","Manaan","Clear"] },
   { name: "Complete all 11 bounty quests", types: ["Bounty"] },
   { name: "Achieve Level 20", types: ["Character"] },
   { name: "100,000 Credits", types: ["Credits"] },
@@ -194,43 +195,44 @@ bingoList[20] = [
 ];
 bingoList[21] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor"] },
-  { name: "Level 8 in two classes", types: ["Character"] },
   { name: "Breathe the vacuum of space", types: ["Leviathan"] },
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband"] },
-  { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
+  { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
+  { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
 ];
 bingoList[22] = [
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
-  { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
-  { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
-  { name: "Clear the Leviathan", types: ["Leviathan"] },
-  { name: "Only Two Available Party Members", types: ["Party","Leviathan"] },
-  { name: "All 10 Armbands", types: ["Collect","Armband"] },
-];
-bingoList[23] = [
+  { name: "Clear the Leviathan", types: ["Leviathan", "Clear"] },
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
+  { name: "All 10 Armbands", types: ["Collect","Armband"] },
+  { name: "Level 8 in two classes", types: ["Character"] },
+];
+bingoList[23] = [
+  { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
+  { name: "All 5 Star Maps", types: ["Misc"] },
   { name: "Mantle of the Force", types: ["Credits"] },
   { name: "Heart of the Guardian", types: ["Credits"] },
   { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
 ];
 bingoList[24] = [
+  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
   { name: "11 Unique Gloves", types: ["Collect","Gloves"] },
-  { name: "Ship Parts", types: ["Unknown World"] },
-  { name: "Kill the One", types: ["Unknown World"] },
-  { name: "All 5 Star Maps", types: ["Misc"] },
-  { name: "Sith Power Gauntlets", types: ["Misc", "Gloves"] },
+  { name: "Ship Parts", types: ["Lehon"] },
+  { name: "Kill the One", types: ["Lehon"] },
+  { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
   { name: "30 quests completed in journal", types: ["Misc", "Quests"] },
 ];
 bingoList[25] = [
-  { name: "Clear all four Sith Strongholds", types: ["Bases"] },
+  { name: "Clear all four Sith Strongholds", types: ["Clear"] },
   { name: "Kill all 28 Mandalorians", types: ["Mandos"] },
   { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
-  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
+  { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
+  { name: "Reach the Star Forge", types: ["Endgame"] },
 ];
 
 $(function () { bingo(bingoList, 5, bingoListVersion); });
