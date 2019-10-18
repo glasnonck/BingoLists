@@ -1,4 +1,4 @@
-var bingoListVersion = "3.06";
+var bingoListVersion = "3.07";
 var bingoList = [];
 
 bingoList[1] = [
@@ -36,7 +36,7 @@ bingoList[4] = [
   { name: "Rescue the Mandalorian on Korriban", types: ["Mandos", "Korriban"] },
   { name: "Force Storm", types: ["Character"] },
   { name: "Complete \"The Trouble with Gizka\"", types: [] },
-  { name: "Solve the Rakatan Riddles", types: ["Misc"] },
+  { name: "Solve the Rakatan Riddles", types: [] },
 ];
 bingoList[5] = [
   { name: "Kill Kandon Ark", types: ["Taris"] },
@@ -45,7 +45,7 @@ bingoList[5] = [
   { name: "20 tach glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
-  { name: "Win 4 Fighter Skirmishes", types: ["Misc"] },
+  { name: "Win 4 Fighter Skirmishes", types: [] },
   { name: "ICE Breaker", types: ["Leviathan"] },
 ];
 bingoList[6] = [
@@ -122,6 +122,7 @@ bingoList[13] = [
   { name: "Kill Rulan", types: ["Kashyyyk","Bounty"] },
   { name: "All three Force Immunity Feats", types: ["Character"] },
   { name: "Both Holocrons", types: ["Tatooine","Korriban"] },
+  { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt","AlignedItem"] },
 ];
 bingoList[14] = [
   { name: "Visit Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
@@ -130,8 +131,8 @@ bingoList[14] = [
   { name: "Both Manaan GenoHaradan Bounties", types: ["Manaan","Bounty"] },
   { name: "Four third tier Force Powers", types: ["Character"] },
   { name: "Naga Sadow's Poison Blade", types: ["Korriban","Tombs"] },
-  { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt","AlignedItem"] },
   { name: "Complete \"Mission for the Republic\"", types: ["Manaan"] },
+  { name: "One of All 4 Deadly Mines", types: [] },
 ];
 bingoList[15] = [
   { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty"] },
@@ -212,11 +213,11 @@ bingoList[22] = [
 ];
 bingoList[23] = [
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
-  { name: "All 5 Star Maps", types: ["Misc"] },
+  { name: "All 5 Star Maps", types: [] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
-  { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
-  { name: "30 quests completed in journal", types: ["Misc", "Quests"] },  
+  { name: "Kill the Trandoshan Smugglers", types: [] },
+  { name: "30 quests completed in journal", types: ["Quests"] },  
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
