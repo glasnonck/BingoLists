@@ -56,7 +56,7 @@ bingoList[6] = [
   { name: "Eralam Crystal", types: ["Crystal"] },
   { name: "Two Weapon Specializations", types: ["Character"] },
   { name: "Karakan Gauntlets", types: ["Credits"] },
-  { name: "5 Different Lightsaber Colors", types: ["Sabers"] },
+  { name: "5 Different Lightsaber Colors", types: ["Colors"] },
 ];
 bingoList[7] = [
   { name: "Davik's War Suit", types: ["Taris","Bosses"] },
@@ -213,8 +213,8 @@ bingoList[22] = [
 bingoList[23] = [
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "All 5 Star Maps", types: ["Misc"] },
-  { name: "Mantle of the Force", types: ["Credits"] },
-  { name: "Heart of the Guardian", types: ["Credits"] },
+  { name: "Mantle of the Force", types: ["Credits", "Colors"] },
+  { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
   { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
   { name: "30 quests completed in journal", types: ["Misc", "Quests"] },  
 ];
@@ -224,7 +224,7 @@ bingoList[24] = [
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
-  { name: "All 7 Different Lightsaber Colors", types: ["Sabers", "Credits"] },
+  { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
   { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[25] = [
