@@ -1,4 +1,4 @@
-var bingoListVersion = "3.02";
+var bingoListVersion = "3.03";
 var bingoList = [];
 
 bingoList[1] = [
@@ -201,10 +201,10 @@ bingoList[21] = [
   { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
 ];
 bingoList[22] = [
-  { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Bosses"] },
+  { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
-  { name: "Escape the Leviathan in a Space Suit", types: ["Leviathan","Endgame"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
+  { name: "Clear the Leviathan", types: ["Leviathan"] },
   { name: "Only Two Available Party Members", types: ["Party","Leviathan"] },
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
 ];
@@ -221,14 +221,14 @@ bingoList[24] = [
   { name: "Ship Parts", types: ["Unknown World"] },
   { name: "Kill the One", types: ["Unknown World"] },
   { name: "All 5 Star Maps", types: ["Misc"] },
-  { name: "Clear the Leviathan", types: ["Leviathan"] },
-  { name: "30 quests completed in journal", types: ["Misc","Quests"] },
+  { name: "Sith Power Gauntlets", types: ["Misc", "Gloves"] },
+  { name: "30 quests completed in journal", types: ["Misc", "Quests"] },
 ];
 bingoList[25] = [
   { name: "Clear all four Sith Strongholds", types: ["Bases"] },
+  { name: "Kill all 28 Mandalorians", types: ["Mandos"] },
   { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
-  { name: "Sith Power Gauntlets", types: ["Misc", "Gloves"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
 ];
