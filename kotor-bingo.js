@@ -62,7 +62,7 @@ bingoList[7] = [
   { name: "Davik's War Suit", types: ["Taris","Bosses"] },
   { name: "Complete \"Sandral-Matale Feud\"", types: ["Dantooine"] },
   { name: "20 Gaffi Sticks", types: ["Tatooine"] },
-  { name: "Kill Kel Algwinn", types: ["Korriban", "Alignment"] },
+  { name: "Jenruax Crystal", types: ["Crystal"] },
   { name: "Complete \"Honest Debt\"", types: ["Kashyyyk"] },
   { name: "Nextor Crystal", types: ["Crystal"] },
   { name: "Pistol Targetting Optics", types: ["Credits"] },
@@ -73,7 +73,6 @@ bingoList[8] = [
   { name: "Defeat Furko Nellis's Tournament Deck", types: ["Pazaak","Tatooine"] },
   { name: "Strand Zaalbar on Kashyyyk", types: ["Kashyyyk","Zaalbar","Party"] },
   { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
-  { name: "Jenruax Crystal", types: ["Crystal"] },
   { name: "Fully Repair HK-47", types: ["Party","HK"] },
   { name: "Return Sasha to Dantooine", types: ["Party", "Zaalbar"] },
 ];
@@ -85,12 +84,13 @@ bingoList[9] = [
   { name: "Dark Side Mastery", types: ["Character","Alignment"] },
   { name: "Win all 8 Swoop Races", types: ["Swoops"] },
   { name: "Sith Regenerator", types: ["Credits"] },
+  { name: "Kill Juhani and Belaya", types: ["Dantooine","Korriban","Juhani","Party"] },  
 ];
 bingoList[10] = [
   { name: "Break 18s on Taris Swoops", types: ["Taris"] },
-  { name: "Kill Juhani and Belaya", types: ["Dantooine","Korriban","Juhani","Party"] },
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
   { name: "Redeem Ajunta Pall's spirit", types: ["Korriban","Tombs"] },
+  { name: "Kill Kel Algwinn", types: ["Korriban", "Alignment"] },  
   { name: "Kiss Bastila", types: ["Party", "Gender"] },
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
   { name: "Cassus Fett's Battle Armor", types: ["Credits"] },
