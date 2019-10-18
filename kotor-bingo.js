@@ -142,6 +142,7 @@ bingoList[15] = [
   { name: "Level 6 in two classes", types: ["Character"] },
   { name: "Token from tortured Selkath", types: ["Manaan"] },
   { name: "Recruit all Party Members", types: ["Party","Mission","Zaalbar","Juhani","Jolee","HK","T3"] },
+  { name: "Complete all Dantooine Quests", types: ["Dantooine","Quests"] },
 ];
 bingoList[16] = [
   { name: "All Three Great Hunt Journals", types: ["Hunt"] },
@@ -152,7 +153,7 @@ bingoList[16] = [
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
   { name: "150 Maximum Vitality", types: ["Character"] },
-  { name: "Complete all Dantooine Quests", types: ["Dantooine","Quests"] },
+  { name: "Complete all Taris Quests", types: ["Taris", "Quests"] },
 ];
 bingoList[17] = [
   { name: "All characters use blasters only", types: ["Character","Restriction"] },
