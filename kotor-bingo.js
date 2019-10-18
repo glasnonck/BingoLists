@@ -211,26 +211,26 @@ bingoList[22] = [
 bingoList[23] = [
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
-  { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
+  { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "Mantle of the Force", types: ["Credits"] },
   { name: "Heart of the Guardian", types: ["Credits"] },
   { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
 ];
 bingoList[24] = [
   { name: "11 Unique Gloves", types: ["Collect","Gloves"] },
-  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
-  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
+  { name: "Ship Parts", types: ["Unknown World"] },
+  { name: "Kill the One", types: ["Unknown World"] },
   { name: "All 5 Star Maps", types: ["Misc"] },
   { name: "Clear the Leviathan", types: ["Leviathan"] },
   { name: "30 quests completed in journal", types: ["Misc","Quests"] },
 ];
 bingoList[25] = [
   { name: "Clear all four Sith Strongholds", types: ["Bases"] },
-  { name: "Ship Parts", types: ["Unknown World"] },
-  { name: "Kill the One", types: ["Unknown World"] },
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
   { name: "Star Forge Robes", types: ["Misc", "Endgame"] },
-  { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
+  { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
+  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
 ];
 
 $(function () { bingo(bingoList, 5, bingoListVersion); });
