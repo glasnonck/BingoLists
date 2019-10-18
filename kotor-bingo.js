@@ -1,4 +1,4 @@
-var bingoListVersion = "3.07";
+var bingoListVersion = "3.08";
 var bingoList = [];
 
 bingoList[1] = [
@@ -11,7 +11,7 @@ bingoList[1] = [
   { name: "Kill Calo Nord", types: ["Bosses"] },
 ];
 bingoList[2] = [
-  { name: "Blow up Matrik's apartment", types: ["Taris"] },
+  { name: "Blow up Matrik's apartment", types: ["Taris", "Bounty"] },
   { name: "Fully upgraded Echani Fiber Armor", types: ["Upgrade"] },
   { name: "Recruit HK-47", types: ["Party", "Tatooine", "HK"] },
   { name: "Sith Medallion", types: ["Korriban"] },
