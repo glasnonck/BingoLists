@@ -56,7 +56,7 @@ bingoList[6] = [
   { name: "Eralam Crystal", types: ["Crystal"] },
   { name: "Two Weapon Specializations", types: ["Character"] },
   { name: "Karakan Gauntlets", types: ["Credits"] },
-  { name: "5 lightsabers of different colors", types: ["Misc"] },
+  { name: "5 Different Lightsaber Colors", types: ["Sabers"] },
 ];
 bingoList[7] = [
   { name: "Davik's War Suit", types: ["Taris","Bosses"] },
@@ -201,6 +201,7 @@ bingoList[21] = [
   { name: "Verpine Prototype Shield", types: ["Armband"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
+  { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
 ];
 bingoList[22] = [
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
@@ -211,12 +212,12 @@ bingoList[22] = [
   { name: "Level 8 in two classes", types: ["Character"] },
 ];
 bingoList[23] = [
-  { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "All 5 Star Maps", types: ["Misc"] },
   { name: "Mantle of the Force", types: ["Credits"] },
   { name: "Heart of the Guardian", types: ["Credits"] },
   { name: "Kill the Trandoshan Smugglers", types: ["Misc"] },
+  { name: "30 quests completed in journal", types: ["Misc", "Quests"] },  
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
@@ -224,7 +225,7 @@ bingoList[24] = [
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
-  { name: "30 quests completed in journal", types: ["Misc", "Quests"] },
+  { name: "All 7 Different Lightsaber Colors", types: ["Sabers", "Credits"] },
 ];
 bingoList[25] = [
   { name: "Clear all four Sith Strongholds", types: ["Clear"] },
