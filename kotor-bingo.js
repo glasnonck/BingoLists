@@ -153,7 +153,7 @@ bingoList[16] = [
   { name: "Complete \"Finding Dustil\"", types: ["Party"] },
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
-  { name: "200 Maximum Vitality", types: ["Character"] },
+  { name: "250 Maximum Vitality", types: ["Character"] },
   { name: "Complete all Taris Quests", types: ["Taris", "Quests"] },
 ];
 bingoList[17] = [
