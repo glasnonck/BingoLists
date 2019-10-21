@@ -1,4 +1,4 @@
-var bingoListVersion = "3.08";
+var bingoListVersion = "3.09";
 var bingoList = [];
 
 bingoList[1] = [
@@ -101,13 +101,13 @@ bingoList[11] = [
   { name: "Fully upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade","Blasters"] },
   { name: "Kill Griff", types: ["Mission","Tatooine","Party", "Alignment"] },
   { name: "Phond Crystal", types: ["Crystal","Korriban","Tombs"] },
-  { name: "GenoHaradan Poison Blade", types: ["Bounty","Manaan"] },
+  { name: "GenoHaradan Poison Blade", types: ["Bounty","Manaan","Geno"] },
   { name: "All Master-level Blaster Feats", types: ["Character"] },
   { name: "One of each Pazaak Card", types: ["Pazaak"] },
 ];
 bingoList[12] = [
   { name: "Download 5 Area Schematics", types: [] },
-  { name: "Kill Zuulan", types: ["Dantooine","Bounty","Blasters"] },
+  { name: "Kill Zuulan", types: ["Dantooine","Bounty","Blasters","Geno"] },
   { name: "Give Griff a tach gland", types: ["Tatooine","Mission","Kashyyyk"] },
   { name: "Fully upgraded armor, blaster, and sword", types: ["Upgrade"] },
   { name: "Master Caution, Empathy, and Gear Head", types: ["Character"] },
@@ -117,25 +117,25 @@ bingoList[12] = [
 bingoList[13] = [
   { name: "Complete \"The Promised Land\"", types: ["Taris"] },
   { name: "GenoHaradan Blaster", types: ["Dantooine","Bounty","Blasters"] },
-  { name: "Kill Vorn", types: ["Tatooine","Bounty"] },
+  { name: "Kill Vorn", types: ["Tatooine","Bounty", "Geno"] },
   { name: "Kill Jorak Uln", types: ["Korriban","Tombs"] },
-  { name: "Kill Rulan", types: ["Kashyyyk","Bounty"] },
+  { name: "Kill Rulan", types: ["Kashyyyk","Bounty", "Geno"] },
   { name: "All three Force Immunity Feats", types: ["Character"] },
   { name: "Both Holocrons", types: ["Tatooine","Korriban"] },
   { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt","AlignedItem"] },
 ];
 bingoList[14] = [
   { name: "Visit Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
-  { name: "GenoHaradan Visor", types: ["Kashyyyk","Bounty"] },
-  { name: "GenoHaradan Stealth Unit", types: ["Tatooine","Bounty"] },
-  { name: "Both Manaan GenoHaradan Bounties", types: ["Manaan","Bounty"] },
+  { name: "GenoHaradan Visor", types: ["Kashyyyk","Bounty", "Geno"] },
+  { name: "GenoHaradan Stealth Unit", types: ["Tatooine","Bounty", "Geno"] },
+  { name: "Both Manaan GenoHaradan Bounties", types: ["Manaan","Bounty", "Geno"] },
   { name: "Four third tier Force Powers", types: ["Character"] },
   { name: "Naga Sadow's Poison Blade", types: ["Korriban","Tombs"] },
   { name: "Complete \"Mission for the Republic\"", types: ["Manaan"] },
   { name: "One of All 4 Deadly Mines", types: [] },
 ];
 bingoList[15] = [
-  { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty"] },
+  { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty", "Geno"] },
   { name: "Complete all 5 Taris Bounty Quests", types: ["Taris","Bounty"] },
   { name: "Complete \"Mandalorian Raiders\"", types: ["Dantooine","Mandos"] },
   { name: "Clear Davik's Estate", types: ["Taris", "Clear"] },
@@ -153,7 +153,7 @@ bingoList[16] = [
   { name: "Complete \"Finding Dustil\"", types: ["Party"] },
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
-  { name: "150 Maximum Vitality", types: ["Character"] },
+  { name: "200 Maximum Vitality", types: ["Character"] },
   { name: "Complete all Taris Quests", types: ["Taris", "Quests"] },
 ];
 bingoList[17] = [
@@ -163,7 +163,7 @@ bingoList[17] = [
   { name: "Three Unique Bowcasters", types: ["Kashyyyk"] },
   { name: "All four Sith Lord Artifacts", types: ["Tombs","Korriban","AlignedItem"] },
   { name: "Complete \"Threat from Xor\"", types: ["Juhani","Party"] },
-  { name: "300 Maximum Force Points", types: ["Character"] },
+  { name: "250 Maximum Force Points", types: ["Character"] },
   { name: "Complete all Manaan Quests", types: ["Manaan","Quests"] },
 ];
 bingoList[18] = [
@@ -177,7 +177,7 @@ bingoList[18] = [
   { name: "Complete all Kashyyyk Quests", types: ["Kashyyyk","Quests"] },
 ];
 bingoList[19] = [
-  { name: "Kill Hulas", types: ["Bounty"] },
+  { name: "Kill Hulas", types: ["Bounty", "Geno"] },
   { name: "Both Exoskeletons", types: ["Credits"] },
   { name: "21 Base Charisma", types: ["Character"] },
   { name: "Clear the Hrakert Rift Station", types: ["Manaan", "Clear"] },
@@ -196,7 +196,7 @@ bingoList[20] = [
   { name: "Complete all Korriban Quests", types: ["Korriban","Quests"] },
 ];
 bingoList[21] = [
-  { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor"] },
+  { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor", "Geno"] },
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
