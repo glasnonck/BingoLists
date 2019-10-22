@@ -1,4 +1,4 @@
-var bingoListVersion = "3.11";
+var bingoListVersion = "3.12";
 var bingoList = [];
 
 bingoList[1] = [
@@ -218,6 +218,7 @@ bingoList[23] = [
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
+  { name: "Rakatan Battle Wand", types: ["Lehon"] },
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
