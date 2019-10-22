@@ -3,7 +3,7 @@ var bingoList = [];
 
 bingoList[1] = [
   { name: "Kill Selven", types: ["Taris","Bounty"] },
-  { name: "Fully upgraded Republic Mod Armor", types: ["Upgrade", "LightArmor"] },
+  { name: "Fully upgraded Republic Mod Armor", types: ["Upgrade"] },
   { name: "Rescue Tanis", types: ["Tatooine"] },
   { name: "Czerka Corp. Resource ID", types: ["Kashyyyk"] },
   { name: "Kill the whimpering locker", types: ["Manaan", "Alignment"] },
@@ -212,7 +212,7 @@ bingoList[22] = [
   { name: "Level 8 in two classes", types: ["Character"] },
 ];
 bingoList[23] = [
-  { name: "All 14 Light Armors", types: ["Credits","Collect","LightArmor", "Geno"] },
+  { name: "All 14 Light Armors", types: ["Credits","Collect","Geno"] },
   { name: "All 5 Star Maps", types: [] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
@@ -221,7 +221,7 @@ bingoList[23] = [
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
-  { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
+  { name: "All 14 Medium Armors", types: ["Credits","Collect"] },
   { name: "Kill the Trandoshan Smugglers", types: [] },
   { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
