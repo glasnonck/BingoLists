@@ -216,14 +216,14 @@ bingoList[23] = [
   { name: "All 5 Star Maps", types: [] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
-  { name: "Kill the Trandoshan Smugglers", types: [] },
-  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
+  { name: "Ship Parts", types: ["Lehon"] },
+  { name: "Kill the One", types: ["Lehon"] },
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
-  { name: "Ship Parts", types: ["Lehon"] },
-  { name: "Kill the One", types: ["Lehon"] },
+  { name: "Kill the Trandoshan Smugglers", types: [] },
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
 ];
