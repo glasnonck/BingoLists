@@ -225,6 +225,7 @@ bingoList[24] = [
   { name: "Kill the Trandoshan Smugglers", types: [] },
   { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
+  { name: "Vacuum Mask", types: ["Lehon"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
 ];
 bingoList[25] = [
