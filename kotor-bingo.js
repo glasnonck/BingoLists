@@ -236,6 +236,7 @@ bingoList[25] = [
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
   { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
   { name: "Reach the Star Forge", types: ["Endgame"] },
+  { name: "Force Zaalbar to Kill Mission", types: ["Lehon"] },
 ];
 
 $(function () { bingo(bingoList, 5, bingoListVersion); });
