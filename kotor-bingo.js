@@ -1,9 +1,9 @@
-var bingoListVersion = "3.09";
+var bingoListVersion = "3.10";
 var bingoList = [];
 
 bingoList[1] = [
   { name: "Kill Selven", types: ["Taris","Bounty"] },
-  { name: "Fully upgraded Republic Mod Armor", types: ["Upgrade"] },
+  { name: "Fully upgraded Republic Mod Armor", types: ["Upgrade", "LightArmor"] },
   { name: "Rescue Tanis", types: ["Tatooine"] },
   { name: "Czerka Corp. Resource ID", types: ["Kashyyyk"] },
   { name: "Kill the whimpering locker", types: ["Manaan", "Alignment"] },
@@ -188,52 +188,51 @@ bingoList[19] = [
 bingoList[20] = [
   { name: "Clear the Sith Academy", types: ["Korriban","Clear"] },
   { name: "Clear both Sith Bases", types: ["Taris","Manaan","Clear"] },
-  { name: "Complete all 11 bounty quests", types: ["Bounty"] },
+  { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
+  { name: "Verpine Prototype Shield", types: ["Armband"] },
   { name: "Achieve Level 20", types: ["Character"] },
   { name: "100,000 Credits", types: ["Credits"] },
-  { name: "Wear Light and Dark Equipment", types: ["Endgame","AlignedItem"] },
   { name: "Gameplay set to Difficult", types: ["Restriction"] },
   { name: "Complete all Korriban Quests", types: ["Korriban","Quests"] },
 ];
 bingoList[21] = [
-  { name: "All 14 Light Armors", types: ["Credits","Collect","Light Armor", "Geno"] },
-  { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
-  { name: "Verpine Prototype Shield", types: ["Armband"] },
+  { name: "Complete all 11 bounty quests", types: ["Geno", "Bounty"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
   { name: "Defeat every Pazaak player once", types: ["Pazaak"] },
+  { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
+  { name: "All 10 Armbands", types: ["Collect","Armband"] },
 ];
 bingoList[22] = [
-  { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
+  { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "Clear the Leviathan", types: ["Leviathan", "Clear"] },
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
-  { name: "All 10 Armbands", types: ["Collect","Armband"] },
+  { name: "30 quests completed in journal", types: ["Quests"] },  
   { name: "Level 8 in two classes", types: ["Character"] },
 ];
 bingoList[23] = [
-  { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
+  { name: "All 14 Light Armors", types: ["Credits","Collect","LightArmor", "Geno"] },
   { name: "All 5 Star Maps", types: [] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
   { name: "Kill the Trandoshan Smugglers", types: [] },
-  { name: "30 quests completed in journal", types: ["Quests"] },  
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
-  { name: "11 Unique Gloves", types: ["Collect","Gloves"] },
+  { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
-  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[25] = [
+  { name: "All 12 Gloves", types: ["Collect","Gloves"] },
   { name: "Clear all four Sith Strongholds", types: ["Clear"] },
   { name: "Kill all 28 Mandalorians", types: ["Mandos", "Geno", "Bounty"] },
   { name: "All 15 Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
-  { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
   { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
   { name: "Reach the Star Forge", types: ["Endgame"] },
 ];
