@@ -230,7 +230,7 @@ bingoList[24] = [
 ];
 bingoList[25] = [
   { name: "Clear all four Sith Strongholds", types: ["Clear"] },
-  { name: "Kill all 28 Mandalorians", types: ["Mandos"] },
+  { name: "Kill all 28 Mandalorians", types: ["Mandos", "Geno", "Bounty"] },
   { name: "All 15 Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
   { name: "Complete all 9 companion sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
   { name: "All 14 Medium Armors", types: ["Credits","Medium Armors","Collect"] },
