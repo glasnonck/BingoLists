@@ -1,4 +1,4 @@
-var bingoListVersion = "3.10";
+var bingoListVersion = "3.11";
 var bingoList = [];
 
 bingoList[1] = [
