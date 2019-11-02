@@ -1,4 +1,4 @@
-var bingoListVersion = "3.16";
+var bingoListVersion = "3.17";
 var bingoList = [];
 
 bingoList[1] = [
@@ -92,14 +92,12 @@ bingoList[9] = [
   { name: "Kill Juhani and Belaya", types: ["Dantooine","Korriban","Juhani","Party"] },  
 ];
 bingoList[10] = [
-  { name: "Break 18s on Taris Swoops", types: ["Taris"] },
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
   { name: "Redeem Ajunta Pall's Spirit", types: ["Korriban","Tombs"] },
   { name: "Kill Kel Algwinn", types: ["Korriban", "Alignment"] },  
   { name: "Kiss Bastila", types: ["Party", "Gender"] },
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
   { name: "Cassus Fett's Battle Armor", types: ["Credits"] },
-  { name: "Mission Vao Wields a Lightsaber", types: ["Mission","Party","Dantooine"] },
   { name: "Successfully Interrogate the Sith Prisoner", types: ["Manaan"] },
 ];
 bingoList[11] = [
@@ -205,8 +203,8 @@ bingoList[20] = [
 ];
 bingoList[21] = [
   { name: "Complete All 11 Bounty Quests", types: ["Geno", "Bounty"] },
-  { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
-  { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
+  { name: "Complete \"HK-47\"", types: ["Leviathan", "Party", "HK"] },
+  { name: "Complete \"Premium Merchant\"", types: ["Leviathan"] },
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
@@ -216,7 +214,7 @@ bingoList[22] = [
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "Clear the Leviathan", types: ["Leviathan", "Clear"] },
   { name: "Defeat Every Pazaak Player Once", types: ["Pazaak"] },
-  { name: "30 Completed Quests in Journal", types: ["Quests"] },  
+  { name: "40 Completed Quests in Journal", types: ["Quests"] },  
   { name: "Level 8 in Two Classes", types: ["Character"] },
   { name: "All 5 Star Maps", types: [] },
   { name: "Star Map: Kashyyyk as Revan", types: ["Kashyyyk"] },
