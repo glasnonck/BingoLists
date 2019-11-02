@@ -9,6 +9,7 @@ bingoList[1] = [
   { name: "Kill the Whimpering Locker", types: ["Manaan", "Alignment"] },
   { name: "Implant Level 3", types: ["Character"] },
   { name: "Kill Calo Nord", types: ["Bosses"] },
+  { name: "Complete \"Pazaak Rules\"", types: ["Pazaak"] },
 ];
 bingoList[2] = [
   { name: "Blow Up Matrik's apartment", types: ["Taris", "Bounty"] },
