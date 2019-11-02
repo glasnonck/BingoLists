@@ -218,13 +218,14 @@ bingoList[23] = [
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
+  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[24] = [
   { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
   { name: "All 14 Medium Armors", types: ["Credits","Collect"] },
   { name: "Kill the Trandoshan Smugglers", types: [] },
   { name: "Verpine Zal Alloy Mesh", types: ["Lehon", "Mandos", "Verpine"] },
-  { name: "Kill 40 unique enemies", types: ["Bounty", "Bosses"] },
+  { name: "Complete \"Rakatan Research\"", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
   { name: "Vacuum Mask", types: ["Lehon"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
