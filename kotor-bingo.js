@@ -219,7 +219,7 @@ bingoList[22] = [
   { name: "30 Completed Quests in Journal", types: ["Quests"] },  
   { name: "Level 8 in Two Classes", types: ["Character"] },
   { name: "All 5 Star Maps", types: [] },
-  { name: "Kashyyyk Star Map as Revan", types: ["Kashyyyk"] },
+  { name: "Star Map: Kashyyyk as Revan", types: ["Kashyyyk"] },
 ];
 bingoList[23] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Geno"] },
