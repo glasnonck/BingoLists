@@ -1,4 +1,4 @@
-var bingoListVersion = "3.15";
+var bingoListVersion = "3.16";
 var bingoList = [];
 
 bingoList[1] = [
@@ -207,31 +207,32 @@ bingoList[21] = [
   { name: "Complete All 11 Bounty Quests", types: ["Geno", "Bounty"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
-  { name: "Defeat Every Pazaak Player Once", types: ["Pazaak"] },
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
+  { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
+  { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
 ];
 bingoList[22] = [
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
   { name: "Clear the Leviathan", types: ["Leviathan", "Clear"] },
-  { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
-  { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
+  { name: "Defeat Every Pazaak Player Once", types: ["Pazaak"] },
   { name: "30 Completed Quests in Journal", types: ["Quests"] },  
   { name: "Level 8 in Two Classes", types: ["Character"] },
+  { name: "All 5 Star Maps", types: [] },
+  { name: "Kashyyyk Star Map as Revan", types: ["Kashyyyk"] },
 ];
 bingoList[23] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Geno"] },
-  { name: "All 5 Star Maps", types: [] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
-  { name: "Kill 40 Unique Enemies", types: ["Bounty", "Bosses"] },
+  { name: "Kill the Trandoshan Smugglers", types: [] },  
+  { name: "Kill 50 Unique Enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[24] = [
-  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
   { name: "All 14 Medium Armors", types: ["Credits","Collect"] },
-  { name: "Kill the Trandoshan Smugglers", types: [] },
+  { name: "Light Side Mastery", types: ["Character","Alignment","Bounty"] },
   { name: "Verpine Zal Alloy Mesh", types: ["Lehon", "Mandos", "Verpine"] },
   { name: "Complete \"Rakatan Research\"", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
