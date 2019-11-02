@@ -9,7 +9,7 @@ bingoList[1] = [
   { name: "Kill the Whimpering Locker", types: ["Manaan", "Alignment"] },
   { name: "Implant Level 3", types: ["Character"] },
   { name: "Kill Calo Nord", types: ["Bosses"] },
-  { name: "Attend Yun Genda's Party", types: ["Taris", "Gender"] },
+  { name: "Discover Zelka Forn's Secret", types: ["Taris"] },
 ];
 bingoList[2] = [
   { name: "Blow Up Matrik's apartment", types: ["Taris", "Bounty"] },
@@ -19,6 +19,7 @@ bingoList[2] = [
   { name: "Destroy Droid (Force Power)", types: ["Force power","Character"] },
   { name: "Bondar Crystal", types: ["Crystal"] },
   { name: "Exactly 0 Credits", types: ["Credits"] },
+  { name: "Attend Yun Genda's Party", types: ["Taris", "Gender"] },
 ];
 bingoList[3] = [
   { name: "Get Dia's Bounty Lifted", types: ["Taris","Bounty"] },
