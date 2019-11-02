@@ -12,7 +12,7 @@ bingoList[1] = [
   { name: "Discover Zelka Forn's Secret", types: ["Taris"] },
 ];
 bingoList[2] = [
-  { name: "Blow Up Matrik's apartment", types: ["Taris", "Bounty"] },
+  { name: "Blow Up Matrik's Apartment", types: ["Taris", "Bounty"] },
   { name: "Fully Upgraded Echani Fiber Armor", types: ["Upgrade"] },
   { name: "Recruit HK-47", types: ["Party", "Tatooine", "HK"] },
   { name: "Sith Medallion", types: ["Korriban"] },
