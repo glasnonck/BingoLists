@@ -100,6 +100,7 @@ bingoList[10] = [
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
   { name: "Cassus Fett's Battle Armor", types: ["Credits"] },
   { name: "Mission Vao Wields a Lightsaber", types: ["Mission","Party","Dantooine"] },
+  { name: "Successfully Interrogate the Sith Prisoner", types: ["Manaan"] },
 ];
 bingoList[11] = [
   { name: "ICE Breaker", types: ["Leviathan"] },
