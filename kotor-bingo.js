@@ -205,6 +205,7 @@ bingoList[21] = [
   { name: "Complete All 11 Bounty Quests", types: ["Geno", "Bounty"] },
   { name: "Complete \"HK-47\"", types: ["Leviathan", "Party", "HK"] },
   { name: "Complete \"Premium Merchant\"", types: ["Leviathan"] },
+  { name: "Defeat Malak on the Leviathan", types: ["Leviathan"] },
   { name: "Kill Calo, Davik, Bandon, and Saul", types: ["Leviathan", "Bosses"] },
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
