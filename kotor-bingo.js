@@ -200,7 +200,7 @@ bingoList[20] = [
   { name: "Complete All Korriban Quests", types: ["Korriban","Quests"] },
 ];
 bingoList[21] = [
-  { name: "Complete All 11 bounty quests", types: ["Geno", "Bounty"] },
+  { name: "Complete All 11 Bounty Quests", types: ["Geno", "Bounty"] },
   { name: "Kill Darth Revan", types: ["Leviathan","Endgame","Gender"] },
   { name: "Visit Dantooine after the Leviathan", types: ["Leviathan"] },
   { name: "Defeat Every Pazaak Player Once", types: ["Pazaak"] },
