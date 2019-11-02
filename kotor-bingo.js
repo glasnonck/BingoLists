@@ -69,6 +69,7 @@ bingoList[7] = [
   { name: "Complete \"Honest Debt\"", types: ["Kashyyyk"] },
   { name: "Nextor Crystal", types: ["Crystal"] },
   { name: "Pistol Targetting Optics", types: ["Credits"] },
+  { name: "Clear the Hidden Bek Base", types: ["Clear", "Taris"] },
 ];
 bingoList[8] = [
   { name: "Free Hudrow", types: ["Taris"] },
