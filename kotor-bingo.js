@@ -245,7 +245,7 @@ bingoList[25] = [
   { name: "All 15 Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
   { name: "Complete All 9 Companion Sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
   { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
-  { name: "Reach the Star Forge", types: ["Endgame"] },
+  { name: "Reach the Star Forge", types: [] },
   { name: "Force Zaalbar to Kill Mission", types: ["Lehon"] },
 ];
 
