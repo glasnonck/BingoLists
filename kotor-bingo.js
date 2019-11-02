@@ -52,7 +52,7 @@ bingoList[5] = [
   { name: "Kill a Rancor", types: ["Taris"] },  
 ];
 bingoList[6] = [
-  { name: "ICE Breaker", types: ["Leviathan"] },
+  { name: "Sell Sharina's Wraid Plate", types: ["Tatooine"] },
   { name: "Sith Armor", types: ["Taris"] },
   { name: "150 Racing Bonds", types: ["Tatooine","Swoops"] },
   { name: "Become Sector Champion on Manaan", types: ["Manaan","Swoops"] },
@@ -102,6 +102,7 @@ bingoList[10] = [
   { name: "Mission Vao Wields a Lightsaber", types: ["Mission","Party","Dantooine"] },
 ];
 bingoList[11] = [
+  { name: "ICE Breaker", types: ["Leviathan"] },
   { name: "Two Bendak's Blasters", types: ["Taris","Bounty","Blasters"] },
   { name: "Fully Upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade","Blasters"] },
   { name: "Kill Griff", types: ["Mission","Tatooine","Party", "Alignment"] },
