@@ -1,4 +1,4 @@
-var bingoListVersion = "3.14";
+var bingoListVersion = "3.15";
 var bingoList = [];
 
 bingoList[1] = [
@@ -92,7 +92,7 @@ bingoList[9] = [
 bingoList[10] = [
   { name: "Break 18s on Taris Swoops", types: ["Taris"] },
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
-  { name: "Redeem Ajunta Pall's spirit", types: ["Korriban","Tombs"] },
+  { name: "Redeem Ajunta Pall's Spirit", types: ["Korriban","Tombs"] },
   { name: "Kill Kel Algwinn", types: ["Korriban", "Alignment"] },  
   { name: "Kiss Bastila", types: ["Party", "Gender"] },
   { name: "Talk to Komad on Kashyyyk", types: ["Tatooine","Kashyyyk"] },
