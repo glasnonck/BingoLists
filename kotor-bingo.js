@@ -1,4 +1,4 @@
-var bingoListVersion = "3.12";
+var bingoListVersion = "3.13";
 var bingoList = [];
 
 bingoList[1] = [
@@ -133,6 +133,7 @@ bingoList[14] = [
   { name: "Naga Sadow's Poison Blade", types: ["Korriban","Tombs"] },
   { name: "Complete \"Mission for the Republic\"", types: ["Manaan"] },
   { name: "One of All 4 Deadly Mines", types: [] },
+  { name: "100,000 Credits", types: ["Credits"] },
 ];
 bingoList[15] = [
   { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty", "Geno"] },
@@ -143,7 +144,6 @@ bingoList[15] = [
   { name: "Level 6 in two classes", types: ["Character"] },
   { name: "Token from tortured Selkath", types: ["Manaan"] },
   { name: "Recruit all Party Members", types: ["Party","Mission","Zaalbar","Juhani","Jolee","HK","T3"] },
-  { name: "Complete all Dantooine Quests", types: ["Dantooine","Quests"] },
 ];
 bingoList[16] = [
   { name: "All Three Great Hunt Journals", types: ["Hunt"] },
@@ -154,7 +154,7 @@ bingoList[16] = [
   { name: "Complete \"Chieftain in Need\"", types: ["Party"] },
   { name: "Resolve all three murder cases", types: ["Murder"] },
   { name: "250 Maximum Vitality", types: ["Character"] },
-  { name: "Complete all Taris Quests", types: ["Taris", "Quests"] },
+  { name: "Complete all Dantooine Quests", types: ["Dantooine","Quests"] },
 ];
 bingoList[17] = [
   { name: "All characters use blasters only", types: ["Character","Restriction"] },
@@ -191,8 +191,8 @@ bingoList[20] = [
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband","Verpine", "Leviathan"] },
   { name: "Achieve Level 20", types: ["Character"] },
-  { name: "100,000 Credits", types: ["Credits"] },
   { name: "Gameplay set to Difficult", types: ["Restriction"] },
+  { name: "Complete all Taris Quests", types: ["Taris", "Quests"] },  
   { name: "Complete all Korriban Quests", types: ["Korriban","Quests"] },
 ];
 bingoList[21] = [
