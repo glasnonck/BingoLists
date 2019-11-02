@@ -9,7 +9,7 @@ bingoList[1] = [
   { name: "Kill the Whimpering Locker", types: ["Manaan", "Alignment"] },
   { name: "Implant Level 3", types: ["Character"] },
   { name: "Kill Calo Nord", types: ["Bosses"] },
-  { name: "Complete \"Pazaak Rules\"", types: ["Pazaak"] },
+  { name: "Attend Yun Genda's Party", types: ["Taris"] },
 ];
 bingoList[2] = [
   { name: "Blow Up Matrik's apartment", types: ["Taris", "Bounty"] },
@@ -28,6 +28,7 @@ bingoList[3] = [
   { name: "Rubat Crystal", types: ["Crystal"] },
   { name: "Poison Both Yuthura and Uthar", types: ["Korriban"] },
   { name: "Kill Darth Bandon", types: ["Bosses"] },
+  { name: "Complete \"Pazaak Rules\"", types: ["Pazaak"] },
 ];
 bingoList[4] = [
   { name: "Damind Crystal", types: ["Crystal"] },
