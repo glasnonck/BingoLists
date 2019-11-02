@@ -23,7 +23,7 @@ bingoList[3] = [
   { name: "Get Dia's bounty lifted", types: ["Taris","Bounty"] },
   { name: "Talk to Samnt", types: ["Dantooine"] },
   { name: "Defend the Sandcrawler Miners", types: ["Tatooine"] },
-  { name: "Above 30 Net Demolitions Skill", types: ["Character"] },
+  { name: "Above 30 Net Stealth Skill", types: ["Character"] },
   { name: "Rubat Crystal", types: ["Crystal"] },
   { name: "Poison both Yuthura and Uthar", types: ["Korriban"] },
   { name: "Kill Darth Bandon", types: ["Bosses"] },
