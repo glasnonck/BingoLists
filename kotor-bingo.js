@@ -129,7 +129,7 @@ bingoList[13] = [
   { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt","AlignedItem"] },
 ];
 bingoList[14] = [
-  { name: "Visit Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
+  { name: "Talk to Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
   { name: "GenoHaradan Visor", types: ["Kashyyyk","Bounty", "Geno"] },
   { name: "GenoHaradan Stealth Unit", types: ["Tatooine","Bounty", "Geno"] },
   { name: "Both Manaan GenoHaradan Bounties", types: ["Manaan","Bounty", "Geno"] },
