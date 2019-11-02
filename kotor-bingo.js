@@ -28,14 +28,14 @@ bingoList[3] = [
   { name: "Above 30 Net Stealth Skill", types: ["Character"] },
   { name: "Rubat Crystal", types: ["Crystal"] },
   { name: "Poison Both Yuthura and Uthar", types: ["Korriban"] },
-  { name: "Kill Darth Bandon", types: ["Bosses"] },
+  { name: "Help with Lyn Sekla's Audition", types: ["Taris"] },
   { name: "Complete \"Pazaak Rules\"", types: ["Pazaak"] },
 ];
 bingoList[4] = [
   { name: "Damind Crystal", types: ["Crystal"] },
   { name: "Rakghoul Serum", types: ["Taris"] },
   { name: "Kill an Albino Kath Hound", types: ["Dantooine"] },
-  { name: "Kill a Shyrack Alpha", types: ["Korriban"] },
+  { name: "Convict Both Rickard and Handon", types: ["Dantooine","Murder"] },
   { name: "Rescue the Mandalorian on Korriban", types: ["Mandos", "Korriban"] },
   { name: "Force Storm", types: ["Character"] },
   { name: "Complete \"The Trouble with Gizka\"", types: [] },
@@ -43,16 +43,16 @@ bingoList[4] = [
 ];
 bingoList[5] = [
   { name: "Kill Kandon Ark", types: ["Taris"] },
-  { name: "Convict Both Rickard and Handon", types: ["Dantooine","Murder"] },
+  { name: "Kill a Shyrack Alpha", types: ["Korriban"] },  
   { name: "Opila Crystal", types: ["Crystal"] },
   { name: "20 Tach Glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
   { name: "Win 4 Fighter Skirmishes", types: [] },
-  { name: "ICE Breaker", types: ["Leviathan"] },
+  { name: "Kill a Rancor", types: ["Taris"] },  
 ];
 bingoList[6] = [
-  { name: "Kill a Rancor", types: ["Taris"] },
+  { name: "ICE Breaker", types: ["Leviathan"] },
   { name: "Sith Armor", types: ["Taris"] },
   { name: "150 Racing Bonds", types: ["Tatooine","Swoops"] },
   { name: "Become Sector Champion on Manaan", types: ["Manaan","Swoops"] },
@@ -78,6 +78,7 @@ bingoList[8] = [
   { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
   { name: "Fully Repair HK-47", types: ["Party","HK"] },
   { name: "Return Sasha to Dantooine", types: ["Party", "Zaalbar"] },
+  { name: "Kill Darth Bandon", types: ["Bosses"] },  
 ];
 bingoList[9] = [
   { name: "Fully Upgraded Mission's Vibroblade", types: ["Mission","Upgrade"] },
