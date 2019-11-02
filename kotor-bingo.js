@@ -175,6 +175,7 @@ bingoList[18] = [
   { name: "Zaalbar Wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
   { name: "13 Unique Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
   { name: "Complete All Kashyyyk Quests", types: ["Kashyyyk","Quests"] },
+  { name: "At Least 20 in All Saves", types: ["Character"] },
 ];
 bingoList[19] = [
   { name: "Kill Hulas", types: ["Bounty", "Geno"] },
