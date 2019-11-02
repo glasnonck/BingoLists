@@ -34,7 +34,7 @@ bingoList[3] = [
 bingoList[4] = [
   { name: "Damind Crystal", types: ["Crystal"] },
   { name: "Rakghoul Serum", types: ["Taris"] },
-  { name: "Kill an Albino Kath Hound", types: ["Dantooine"] },
+  { name: "Kill a Hive Kinrath", types: ["Dantooine"] },
   { name: "Convict Both Rickard and Handon", types: ["Dantooine","Murder"] },
   { name: "Rescue the Mandalorian on Korriban", types: ["Mandos", "Korriban"] },
   { name: "Force Storm", types: ["Character"] },
@@ -73,7 +73,7 @@ bingoList[7] = [
 ];
 bingoList[8] = [
   { name: "Free Hudrow", types: ["Taris"] },
-  { name: "Kill a Hive Kinrath", types: ["Dantooine"] },
+  { name: "Kill an Albino Kath Hound", types: ["Dantooine"] },
   { name: "Defeat Furko Nellis's Tournament Deck", types: ["Pazaak","Tatooine"] },
   { name: "Strand Zaalbar on Kashyyyk", types: ["Kashyyyk","Zaalbar","Party"] },
   { name: "Solari Crystal", types: ["Crystal","Korriban","Hunt","AlignedItem"] },
