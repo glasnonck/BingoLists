@@ -113,6 +113,7 @@ bingoList[12] = [
   { name: "Master Caution, Empathy, and Gear Head", types: ["Character"] },
   { name: "Three Viper Kinrath corpses", types: ["Kashyyyk","Zaalbar","Hunt"] },
   { name: "Have Sunry declared innocent", types: ["Kashyyyk","Manaan","Murder","Party","Jolee"] },
+  { name: "Purchase a store's entire inventory", types: ["Credits"] },
 ];
 bingoList[13] = [
   { name: "Complete \"The Promised Land\"", types: ["Taris"] },
@@ -169,7 +170,6 @@ bingoList[17] = [
 bingoList[18] = [
   { name: "40 points in all skills", types: ["Character"] },
   { name: "Kill four terentateks", types: ["Hunt"] },
-  { name: "Purchase a store's entire inventory", types: ["Credits"] },
   { name: "10 Prestige Points", types: ["Korriban"] },
   { name: "Get banned from Manaan", types: ["Manaan"] },
   { name: "Zaalbar wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
