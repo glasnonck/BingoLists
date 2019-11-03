@@ -93,6 +93,7 @@ bingoList[9] = [
 ];
 bingoList[10] = [
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
+  { name: "Get Banned From Manaan", types: ["Manaan"] },  
   { name: "Redeem Ajunta Pall's Spirit", types: ["Korriban","Tombs"] },
   { name: "Kill Kel Algwinn", types: ["Korriban", "Alignment"] },  
   { name: "Kiss Bastila", types: ["Party", "Gender"] },
@@ -176,7 +177,6 @@ bingoList[18] = [
   { name: "40 Points in All Skills", types: ["Character"] },
   { name: "Kill Four Terentateks", types: ["Hunt"] },
   { name: "10 Prestige Points", types: ["Korriban"] },
-  { name: "Get Banned From Manaan", types: ["Manaan"] },
   { name: "Zaalbar Wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
   { name: "13 Unique Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
   { name: "Complete All Kashyyyk Quests", types: ["Kashyyyk","Quests"] },
