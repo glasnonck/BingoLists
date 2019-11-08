@@ -237,6 +237,7 @@ bingoList[24] = [
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
   { name: "Kill Jolee and Juhani", types: ["Lehon"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
+  { name: "Level 10 in Base Class", types: ["Character"] },
 ];
 bingoList[25] = [
   { name: "All 12 Gloves", types: ["Collect","Gloves"] },
