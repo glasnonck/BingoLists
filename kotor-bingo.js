@@ -1,4 +1,4 @@
-var bingoListVersion = "3.17";
+var bingoListVersion = "3.18";
 var bingoList = [];
 
 bingoList[1] = [
@@ -235,7 +235,7 @@ bingoList[24] = [
   { name: "Verpine Zal Alloy Mesh", types: ["Lehon", "Mandos", "Verpine"] },
   { name: "Complete \"Rakatan Research\"", types: ["Lehon"] },
   { name: "Sith Power Gauntlets", types: ["Lehon", "Gloves"] },
-  { name: "Vacuum Mask", types: ["Lehon"] },
+  { name: "Kill Jolee and Juhani", types: ["Lehon"] },
   { name: "All 7 Different Lightsaber Colors", types: ["Colors", "Credits"] },
 ];
 bingoList[25] = [
