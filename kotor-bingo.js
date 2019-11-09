@@ -174,12 +174,13 @@ bingoList[17] = [
 ];
 bingoList[18] = [
   { name: "40 Points in All Skills", types: ["Character"] },
+  { name: "Get Suvam Tam's Pazaak Discount", types: ["Pazaak"] },  
   { name: "Kill Four Terentateks", types: ["Hunt"] },
   { name: "10 Prestige Points", types: ["Korriban"] },
   { name: "Zaalbar Wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
   { name: "13 Unique Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
   { name: "Complete All Kashyyyk Quests", types: ["Kashyyyk","Quests"] },
-  { name: "At Least 20 in All Saves", types: ["Character"] },
+  { name: "At Least 25 in All Saves", types: ["Character"] },
 ];
 bingoList[19] = [
   { name: "Kill Hulas", types: ["Bounty", "Geno"] },
@@ -187,6 +188,7 @@ bingoList[19] = [
   { name: "21 Base Charisma", types: ["Character"] },
   { name: "Clear the Hrakert Rift Station", types: ["Manaan", "Clear"] },
   { name: "Raito's Gaderffii", types: ["Tatooine"] },
+  { name: "Three Light Alignment-Restricted Items", types: ["AlignedItem"] },
   { name: "Five Alignment-Restricted Items", types: ["Tombs","AlignedItem"] },
   { name: "Complete All Tatooine Quests", types: ["Tatooine","Quests"] },
 ];
