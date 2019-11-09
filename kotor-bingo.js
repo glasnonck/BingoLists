@@ -134,7 +134,7 @@ bingoList[13] = [
 ];
 bingoList[14] = [
   { name: "GenoHaradan Visor", types: ["Kashyyyk","Bounty", "Geno"] },
-  { name: "GenoHaradan Stealth Unit", types: ["Tatooine","Bounty", "Geno"] },
+  { name: "GenoHaradan Stealth Unit", types: ["Tatooine","Bounty", "Geno", "Belts"] },
   { name: "Four Third-Tier Force Powers", types: ["Character"] },
   { name: "One of All 4 Deadly Mines", types: [] },
   { name: "100,000 Credits", types: ["Credits"] },
@@ -226,7 +226,7 @@ bingoList[23] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Geno"] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
-  { name: "All 6 Stealth Generators", types: ["Collect", "Belts"] },
+  { name: "All 6 Stealth Generators", types: ["Credits", "Collect", "Belts"] },
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
   { name: "Kill the Duros on Lehon", types: ["Lehon"] },
