@@ -220,7 +220,7 @@ bingoList[22] = [
   { name: "Level 8 in Two Classes", types: ["Character"] },
   { name: "All 5 Star Maps", types: [] },
   { name: "Star Map: Kashyyyk as Revan", types: ["Kashyyyk"] },
-  { name: "Kill 50 Unique Enemies", types: ["Bounty", "Bosses"] },
+  { name: "Kill 40 Unique Enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[23] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Geno"] },
