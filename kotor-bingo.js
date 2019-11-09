@@ -1,4 +1,4 @@
-var bingoListVersion = "3.18";
+var bingoListVersion = "3.19";
 var bingoList = [];
 
 bingoList[1] = [
@@ -14,7 +14,7 @@ bingoList[1] = [
 bingoList[2] = [
   { name: "Blow Up Matrik's Apartment", types: ["Taris", "Bounty"] },
   { name: "Fully Upgraded Echani Fiber Armor", types: ["Upgrade"] },
-  { name: "Recruit HK-47", types: ["Party", "Tatooine", "HK"] },
+  { name: "Sell Sharina's Wraid Plate", types: ["Tatooine"] },
   { name: "Sith Medallion", types: ["Korriban"] },
   { name: "Destroy Droid (Force Power)", types: ["Force power","Character"] },
   { name: "Bondar Crystal", types: ["Crystal"] },
@@ -33,11 +33,11 @@ bingoList[3] = [
 ];
 bingoList[4] = [
   { name: "Damind Crystal", types: ["Crystal"] },
-  { name: "Rakghoul Serum", types: ["Taris"] },
   { name: "Kill a Hive Kinrath", types: ["Dantooine"] },
   { name: "Convict Both Rickard and Handon", types: ["Dantooine","Murder"] },
   { name: "Rescue the Mandalorian on Korriban", types: ["Mandos", "Korriban"] },
   { name: "Force Storm", types: ["Character"] },
+  { name: "Recruit HK-47", types: ["Party", "Tatooine", "HK"] },  
   { name: "Complete \"The Trouble with Gizka\"", types: [] },
   { name: "Solve the Rakatan Riddles", types: [] },
 ];
@@ -46,13 +46,13 @@ bingoList[5] = [
   { name: "Kill a Shyrack Alpha", types: ["Korriban"] },  
   { name: "Opila Crystal", types: ["Crystal"] },
   { name: "20 Tach Glands", types: ["Kashyyyk"] },
-  { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sneak Attack IX", types: ["Character"] },
+  { name: "Complete \"Rakghoul Serum\"", types: ["Taris"] },  
   { name: "Win 4 Fighter Skirmishes", types: [] },
   { name: "Kill a Rancor", types: ["Taris"] },  
 ];
 bingoList[6] = [
-  { name: "Sell Sharina's Wraid Plate", types: ["Tatooine"] },
+  { name: "Qel-Droma Robes", types: ["Korriban","Hunt","AlignedItem"] },
   { name: "Sith Armor", types: ["Taris"] },
   { name: "150 Racing Bonds", types: ["Tatooine","Swoops"] },
   { name: "Become Sector Champion on Manaan", types: ["Manaan","Swoops"] },
