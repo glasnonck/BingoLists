@@ -1,4 +1,4 @@
-var bingoListVersion = "3.5";
+var bingoListVersion = "3.51";
 var bingoList = [];
 
 bingoList[1] = [
@@ -174,7 +174,7 @@ bingoList[17] = [
 ];
 bingoList[18] = [
   { name: "40 Points in All Skills", types: ["Character"] },
-  { name: "Get Suvam Tam's Pazaak Discount", types: ["Pazaak"] },  
+  { name: "Achieve Level 20", types: ["Character"] },
   { name: "Kill Four Terentateks", types: ["Hunt"] },
   { name: "10 Prestige Points", types: ["Korriban"] },
   { name: "Zaalbar Wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk"] },
@@ -197,13 +197,12 @@ bingoList[20] = [
   { name: "Clear Both Sith Bases", types: ["Taris","Manaan","Clear"] },
   { name: "Kill Saul Karath", types: ["Bosses","Leviathan"] },
   { name: "Verpine Prototype Shield", types: ["Armband","Verpine", "Leviathan"] },
-  { name: "Achieve Level 20", types: ["Character"] },
   { name: "Gameplay Set to Difficult", types: ["Restriction"] },
   { name: "Complete All Taris Quests", types: ["Taris", "Quests"] },  
   { name: "Complete All Korriban Quests", types: ["Korriban","Quests"] },
+  { name: "Complete All 11 Bounty Quests", types: ["Geno", "Bounty"] },  
 ];
 bingoList[21] = [
-  { name: "Complete All 11 Bounty Quests", types: ["Geno", "Bounty"] },
   { name: "Complete \"HK-47\"", types: ["Leviathan", "Party", "HK"] },
   { name: "Complete \"Premium Merchant\"", types: ["Leviathan"] },
   { name: "Defeat Malak on the Leviathan", types: ["Leviathan"] },
@@ -211,6 +210,7 @@ bingoList[21] = [
   { name: "All 10 Armbands", types: ["Collect","Armband"] },
   { name: "Dominator Gauntlets", types: ["Credits","Gloves"] },
   { name: "Adrenaline Stimulator", types: ["Credits","Belts"] },
+  { name: "Get Suvam Tam's Pazaak Discount", types: ["Pazaak"] },    
 ];
 bingoList[22] = [
   { name: "All 23 Blaster Pistols", types: ["Credits","Blasters","Collect"] },
