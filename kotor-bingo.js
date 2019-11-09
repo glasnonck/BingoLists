@@ -90,6 +90,7 @@ bingoList[9] = [
   { name: "Win All 8 Swoop Races", types: ["Swoops"] },
   { name: "Sith Regenerator", types: ["Credits"] },
   { name: "Kill Juhani and Belaya", types: ["Dantooine","Korriban","Juhani","Party"] },  
+  { name: "Complete \"Mission for the Republic\"", types: ["Manaan"] },  
 ];
 bingoList[10] = [
   { name: "Two Krayt Dragon Pearls", types: ["Tatooine"] },
@@ -104,57 +105,55 @@ bingoList[10] = [
 bingoList[11] = [
   { name: "ICE Breaker", types: ["Leviathan"] },
   { name: "Two Bendak's Blasters", types: ["Taris","Bounty","Blasters"] },
-  { name: "Fully Upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade","Blasters"] },
   { name: "Kill Griff", types: ["Mission","Tatooine","Party", "Alignment"] },
   { name: "Phond Crystal", types: ["Crystal","Korriban","Tombs"] },
+  { name: "One of Each Pazaak Card", types: ["Pazaak"] },  
   { name: "GenoHaradan Poison Blade", types: ["Bounty","Manaan","Geno"] },
   { name: "All Master-Level Blaster Feats", types: ["Character"] },
-  { name: "One of Each Pazaak Card", types: ["Pazaak"] },
+  { name: "Kill Zuulan", types: ["Dantooine","Bounty","Blasters","Geno"] },
 ];
 bingoList[12] = [
   { name: "Download 5 Area Schematics", types: [] },
-  { name: "Kill Zuulan", types: ["Dantooine","Bounty","Blasters","Geno"] },
+  { name: "GenoHaradan Blaster", types: ["Dantooine","Bounty","Blasters"] },  
   { name: "Give Griff a Tach Gland", types: ["Tatooine","Mission","Kashyyyk"] },
-  { name: "Fully Upgraded Armor, Blaster, and Sword", types: ["Upgrade"] },
   { name: "Master Caution, Empathy, and Gear Head", types: ["Character"] },
   { name: "Three Viper Kinrath Corpses", types: ["Kashyyyk","Zaalbar","Hunt"] },
-  { name: "Have Sunry Declared Innocent", types: ["Kashyyyk","Manaan","Murder","Party","Jolee"] },
+  { name: "Fully Upgraded Bendak's Blaster", types: ["Taris","Bounty","Upgrade","Blasters"] },
   { name: "Purchase a Store's Entire Inventory", types: ["Credits"] },
+  { name: "Naga Sadow's Poison Blade", types: ["Korriban","Tombs"] },  
 ];
 bingoList[13] = [
   { name: "Complete \"The Promised Land\"", types: ["Taris"] },
-  { name: "GenoHaradan Blaster", types: ["Dantooine","Bounty","Blasters"] },
+  { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty", "Geno"] },  
   { name: "Kill Vorn", types: ["Tatooine","Bounty", "Geno"] },
   { name: "Kill Jorak Uln", types: ["Korriban","Tombs"] },
   { name: "Kill Rulan", types: ["Kashyyyk","Bounty", "Geno"] },
-  { name: "All 3 Force Immunity Feats", types: ["Character"] },
+  { name: "All 3 Force Immunity Feats", types: ["Character"] },  
   { name: "Both Holocrons", types: ["Tatooine","Korriban"] },
   { name: "Circlet of Saresh", types: ["Kashyyyk","Hunt","AlignedItem"] },
 ];
 bingoList[14] = [
-  { name: "Talk to Yuthura on Dantooine", types: ["Korriban","Dantooine"] },
   { name: "GenoHaradan Visor", types: ["Kashyyyk","Bounty", "Geno"] },
   { name: "GenoHaradan Stealth Unit", types: ["Tatooine","Bounty", "Geno"] },
-  { name: "Both Manaan GenoHaradan Bounties", types: ["Manaan","Bounty", "Geno"] },
   { name: "Four Third-Tier Force Powers", types: ["Character"] },
-  { name: "Naga Sadow's Poison Blade", types: ["Korriban","Tombs"] },
-  { name: "Complete \"Mission for the Republic\"", types: ["Manaan"] },
   { name: "One of All 4 Deadly Mines", types: [] },
   { name: "100,000 Credits", types: ["Credits"] },
+  { name: "Token From Tortured Selkath", types: ["Manaan"] },
+  { name: "Defeat Both Defense Droids", types: ["Kashyyyk"] },  
+  { name: "Fully Upgraded Armor, Blaster, and Sword", types: ["Upgrade"] },
 ];
 bingoList[15] = [
-  { name: "GenoHaradan Power Gloves", types: ["Manaan","Bounty", "Geno"] },
   { name: "Complete All 5 Taris Bounty Quests", types: ["Taris","Bounty"] },
   { name: "Complete \"Mandalorian Raiders\"", types: ["Dantooine","Mandos"] },
   { name: "Clear Davik's Estate", types: ["Taris", "Clear"] },
   { name: "Complete \"Hidden Hunters\"", types: ["Kashyyyk","Mandos"] },
   { name: "Level 6 in Two Classes", types: ["Character"] },
-  { name: "Token From Tortured Selkath", types: ["Manaan"] },
+  { name: "Talk to Yuthura on Dantooine", types: ["Korriban","Dantooine"] },  
   { name: "Recruit All Party Members", types: ["Party","Mission","Zaalbar","Juhani","Jolee","HK","T3"] },
+  { name: "Have Sunry Declared Innocent", types: ["Kashyyyk","Manaan","Murder","Party","Jolee"] },
 ];
 bingoList[16] = [
   { name: "All Three Great Hunt Journals", types: ["Hunt"] },
-  { name: "Defeat Both Defense Droids", types: ["Kashyyyk"] },
   { name: "Fully Upgraded Baragwin Assault Blade", types: ["Upgrade"] },
   { name: "Clear the Sand People Enclave", types: ["Tatooine", "Clear"] },
   { name: "Complete \"Finding Dustil\"", types: ["Party"] },
