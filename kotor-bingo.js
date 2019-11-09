@@ -1,4 +1,4 @@
-var bingoListVersion = "3.19";
+var bingoListVersion = "3.5";
 var bingoList = [];
 
 bingoList[1] = [
@@ -220,15 +220,17 @@ bingoList[22] = [
   { name: "Level 8 in Two Classes", types: ["Character"] },
   { name: "All 5 Star Maps", types: [] },
   { name: "Star Map: Kashyyyk as Revan", types: ["Kashyyyk"] },
+  { name: "Kill 50 Unique Enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[23] = [
   { name: "All 14 Light Armors", types: ["Credits","Collect","Geno"] },
   { name: "Mantle of the Force", types: ["Credits", "Colors"] },
   { name: "Heart of the Guardian", types: ["Credits", "Colors"] },
+  { name: "All 6 Stealth Generators", types: ["Collect", "Belts"] },
   { name: "Ship Parts", types: ["Lehon"] },
   { name: "Kill the One", types: ["Lehon"] },
+  { name: "Kill the Duros on Lehon", types: ["Lehon"] },
   { name: "Kill the Trandoshan Smugglers", types: [] },  
-  { name: "Kill 50 Unique Enemies", types: ["Bounty", "Bosses"] },
 ];
 bingoList[24] = [
   { name: "All 14 Medium Armors", types: ["Credits","Collect"] },
