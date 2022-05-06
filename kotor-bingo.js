@@ -190,7 +190,7 @@ bingoList[17] = [
 ];
 bingoList[18] = [
   { name: "Clear the Sand People Enclave", types: ["Tatooine", "Clear"] },  
-  { name: "Luxum Crystal", types: ["Crystal","Manaan"] },
+  { name: "Luxum Crystal", types: ["Crystal", "Manaan", "Robes"] },
   { name: "Complete All 7 Kashyyyk Quests", types: ["Kashyyyk", "Quests", "Strand", "Mastery"] },
   { name: "16 Permanent Points in All Saves", types: ["Character"] },
   { name: "Redeem 4 Sith to the Light", types: ["Korriban", "Tombs", "Redeem"] },
