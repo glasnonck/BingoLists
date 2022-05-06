@@ -1,0 +1,316 @@
+KotOR Bingo Changelog v6.0
+
+Overall Features of v6.0 (a.k.a. TL;DR):
+- All 25 groups have 9 tasks each for 225 total tasks
+- Added 41 tasks and removed 22 tasks since v5.0
+- 81 returning tasks changed category
+- 29 returning tasks were tweaked
+- Removed several near-duplicate tasks to encourage more variety in rows
+- The hardest tasks have been fully revamped to remove the truly awful ones and add some additional Star Forge and Lehon tasks
+- Introduced tiered tasks with multiple versions; for instance, 8 Different Lightsaber Power Crystals, 13 Different Lightsaber Power Crystals, and 15 Different Lightsaber Power Crystals
+- GenoHaradan tasks have been pared down and grouped together for fewer rows that require them
+- Tasks that only required a certain level have been entirely removed; the Yuthura XP glitch made them both difficult to balance and boring
+- Tasks involving Vitality, Force Points, and Saves now require those to be Permanent, i.e. not including timed buffs like Force Valor or stims
+- Some rows may now require both the Leviathan and either all 5 Star Maps or Lehon
+
+Added Tasks:
+- Defeat Deadeye Duncan to 1
+- Persuade a Prospective Sith to Leave to 1
+- Complete "A Desert Ambush" to 3
+- Kill the Lavin Thugs to 3
+- Obtain 4 Complete Area Maps to 3
+- Help Three Taris Bounties Escape to 7
+- Three Permanent Immunities to 9
+- Master Toughness and Master Conditioning to 9
+- Clear the Taris Sith Base to 10
+- 8 Different Lightsaber Power Crystals to 10
+- 120 Permanent Maximum Vitality to 11
+- 150 Permanent Maximum Force Points to 12
+- 10 Thermal Detonators to 12
+- Reedem 2 Sith to the Light to 13
+- 12 Permanent Points in all Saves to 13
+- Obtain 7 Complete Area Maps to 14
+- Complete "Jagi's Challenge" to 14
+- 20 Completed Quests in Journal to 15
+- Kill 12 Mandalorians to 15
+- Maximum Permanent Immunities to 15
+- All 5 Advanced Droid Weapons to 17
+- 30 Completed Quests in Journal to 18
+- ICE Breaker to 19
+- 8 Different Jedi Robes to 19
+- Complete All 4 Minigame Quests to 19
+- Kill 20 Mandalorians to 20
+- Niklos Accuses You of Cheating to 20
+- Clear the Prison Block with Party Member to 20
+- All 4 Disguises to 21
+- Kill Keeper Orsaa to 21
+- Sapith and Upari Crystals to 22
+- Obtain 10 Complete Area Maps to 23
+- All 9 Verpine Equipments to 24
+- Darth Revan's Robes to 24
+- Star Forge Robes to 24
+- Kill Bastila to 24
+- 11 Different Jedi Robes to 25
+- All 10 Heavy Armors to 25
+- Clear the Rakatan Temple to 25
+- Kill Four Party Members to 25
+- Redeem 6 Sith to the Light to 25
+
+Removed Tasks:
+- Force Storm from 4
+- Complete "Mission for the Republic" from 9
+- Kill Zuulan from 11
+- Three Viper Kinrath Corpses from 12
+- Fully Upgraded Bendak's Blaster from 12
+- Download 5 Area Schematics from 12
+- Kill Vorn from 13
+- Kill Rulan from 13
+- Master Scoundrel's Luck and Master Sense from 14
+- Three Unique Bowcasters from 17
+- 40 Points in All Skills from 18
+- Achieve Level 20 from 18
+- Heart of the Guardian from 21
+- Adrenaline Stimulator from 21
+- Complete "Premium Merchant" from 21
+- Kill the Duros on Lehon from 22
+- Level 8 in Two Classes from 24
+- Kill 40 Unique Enemies from 24
+- Level 10 in Base Class from 25
+- Complete All 9 Companion Sidequests from 25
+- Clear All 4 Sith Strongholds from 25
+- Light Side Mastery from 25
+
+Changed Tasks:
+- In 3: Above 30 Net Stealth Skill to 20 Net Stealth Skill
+- In 4: Solve the Rakatan Riddles to Escape the Mind Prison
+- In 5: Sneak Attack IX to Improved Scoundrel's Luck
+- In 9: Dark Side Mastery to Light or Dark Side Mastery
+- In 10: Romance Bastila to Kiss Bastila
+- In 11: GenoHaradan Poison Blade to Force Choke Lorgal
+- In 14: Four Third-Tier Force Powers to Three Third-Tier Force Powers
+- In 16: 250 Maximum Vitality to 150 Permanent Maximum Vitality
+- In 16: Complete All Dantooine Quests to Complete All 8 Dantooine Quests
+- In 17: 250 Maximum Force Points to 180 Permanent Maximum Force Points
+- In 17: Complete All Manaan Quests to Complete All 7 Manaan Quests
+- In 18: At Least 25 in All Saves to 16 Permanent Points in All Saves
+- In 18: Complete All Kashyyyk Quests to Complete All 7 Kashyyyk Quests
+- In 19: Complete All Tatooine Quests to Complete All 11 Tatooine Quests
+- In 20: Clear Both Sith Bases to Clear the Manaan Sith Base
+- In 20: Complete All Korriban Quests to Complete All 13 Korriban Quests
+- In 22: All 7 Different Lightsaber Colors to 7 Different Lightsaber Colors
+- In 23: Clear the Warrior Rakatan Compound to Clear a Rakatan Settlement
+- In 25: All 15 Lightsaber Power Crystals to 15 Different Lightsaber Power Crystals
+
+Changed and Moved Tasks:
+- Complete "Unfinished Business" from 6 to Give Motta the Mysterious Box in 7
+- 20 Gaffi Sticks from 7 to Complete "Sand People" in 6
+- One of Each Pazaak Card from 11 to All 18 Pazaak Sidedeck Cards in 10
+- Fully Upgraded Bendak's Blaster from 12 to Fully Upgraded Zaalbar's Bowcaster in 9
+- One of Each Deadly Mine in 15 to Four Different Deadly Mines in 18
+- Resolve All 3 Murder Cases in 16 to Complete All 3 Murder Quests in 17
+- 13 Unique Lightsaber Power Crystals in 18 to 13 Different Lightsaber Power Crystals in 20
+- Resolve All Party Family Issues in 20 to Complete All 4 Party Family Quests in 21
+- Complete All Taris Quests in 20 to Complete All 18 Taris Quests in 23
+- Kill At Least 25 Mandalorians in 25 to Kill 25 Mandalorians in 23
+
+Moved Tasks:
+- Kill Calo Nord from 1 to 2
+- Defend the Sandcrawler Miners from 3 to 4
+- Complete "Pazaak Rules" from 3 to 4
+- Clear the Endar Spire from 3 to 9
+- Recruit HK-47 from 4 to 5
+- Kill a Hive Kinrath from 4 to 5
+- Kill a Rancor from 5 to 4
+- Kill Kandon Ark from 5 to 6
+- Complete "Rakghoul Serum" from 5 to 6
+- Sith Armor from 6 to 4
+- Qel-Droma Robes from 6 to 5
+- 10,000 Credits from 7 to 6
+- Return Sasha to Dantooine from 8 to 10
+- Carbonite Projector Mark II from 9 to 8
+- Firkrann Crystal from 9 to 8
+- Strand Zaalbar on Kashyyyk from 9 to 10
+- Win All 8 Swoop Races from 9 to 14
+- Purchase a Store's Entire Inventory from 10 to 7
+- Get Banned From Manaan from 10 to 9
+- Kill Kel Algwinn from 10 to 9
+- Defeat Twtich from 10 to 11
+- Romance Carth from 10 to 24
+- Two Bendak's Blasters from 11 to 12
+- Kill Griff from 11 to 14
+- GenoHaradan Blaster from 12 to 11
+- Solve the Light Ring Puzzle from 12 to 11
+- Clear the Vulkar Base from 12 to 13
+- GenoHaradan Power Gloves from 13 to 12
+- Circlet of Saresh from 13 to 12
+- Kill Jorak Uln from 13 to 14
+- 100,000 Credits from 14 to 11
+- GenoHaradan Stealth Unit from 14 to 12
+- GenoHaradan Visor from 14 to 12
+- Defeat Both Defense Droids from 14 to 13
+- Complete "Mandalorian Raiders" from 15 to 13
+- Recruit All Party Members from 15 to 14
+- Clear Davik's Estate from 15 to 16
+- Level 6 in Two Classes from 15 to 16
+- Have Sunry Declared Innocent from 16 to 13
+- Complete "Chieftain In Need" from 16 to 15
+- Complete "Finding Dustil" from 16 to 15
+- Moisture Vaporators from 17 to 15
+- All 3 Great Hunt Journals from 17 to 16
+- All 4 Sith Lord Artifacts from 17 to 16
+- Clear the Sand People Enclave from 17 to 18
+- Kill Four Terentateks from 18 to 17
+- Zaalbar Wielding Bacca's Ceremonial Blade from 18 to 17
+- 10 Prestige Points from 18 to 19
+- Clear the Hrakert Rift Station from 19 to 17
+- Raito's Gaderffii from 19 to 17
+- Luxum Crystal from 19 to 18
+- 21 Base Charisma from 19 to 18
+- Kill Hulas from 19 to 18
+- Redeem 4 Sith to the Light from 20 to 18
+- Clear the Shadowlands from 20 to 19
+- Complete All 11 Bounty Quests from 20 to 21
+- Verpine Prototype Shield from 21 to 19
+- All 5 Star Maps from 21 to 20
+- Ship Parts from 22 to 20
+- All 10 Armbands from 22 to 21
+- Kill The One from 22 to 21
+- All 6 Stealth Generators from 22 to 23
+- Defeat Malak on the Leviathan from 23 to 22
+- Kill Calo, Davik, Bandon, and Saul from 23 to 22
+- Sith Power Gauntlets from 23 to 22
+- Kill Jolee and Juhani from 23 to 22
+- Verpine Zal Alloy Mesh from 23 to 22
+- All 14 Light Armors from 24 to 23
+- Get Suvam Tam's Pazaak Discount from 24 to 25
+- All 12 Gloves from 24 to 25
+- Reach the Star Forge from 25 to 23
+
+---------------------------------------------------
+
+KotOR Bingo v4.0 Tasklist Changelog
+
+Changes from Version 3.0:
+-------------------------
+
+Removed Tasks:
+--------------
+Only Two Party Members Available
+Complete Map for Four Planets
+Recruit Mission but not Zaalbar
+Escape the Leviathan in a Space Suit
+Breathe the vacuum of space
+Wear Light and Dark Equipment
+Mission Vao Wields a Lightsaber
+Kill Darth Revan
+Visit Dantooine after Leviathan
+Break 18s on Taris Swoops
+Both Manaan GenoHaradan Bounties
+
+Added Tasks:
+------------
+Kill all 28 Mandalorians (25)
+Reach the Star Forge (25)
+Clear the Rakatan Warrior Compound (25)
+All 15 Lightsaber Power Crystals (25)
+Force Zaalbar to Kill Mission (25)
+
+Sith Power Gauntlets (24)
+Level 10 in Base Class (24)
+Verpine Zal Alloy Mesh (24)
+Complete "Rakatan Research" (24)
+All 7 Different Lightsaber Colors (24)
+Kill Jolee and Juhani (24)
+
+Kill the Duros on Lehon (23)
+All 6 Stealth Generators (23)
+Star Map: Kashyyyk as Revan (22)
+Complete "Premium Merchant" (21)
+Defeat Malak on the Leviathan (21)
+Get Suvam Tam's Pazaak Discount (21)
+Complete "HK-47" (21)
+
+Complete all Taris Quests (20)
+Three Light-Alignment Restricted Items (19)
+At Least 25 in All Saves (18)
+One of All 4 Deadly Mines (14)
+Download 5 Area Schematics (12)
+Successfully Interrogate the Sith Prisoner (10)
+
+Clear the Hidden Bek Base (7)
+Kill a Shyrack Alpha (5)
+Help with Lyn Sekla's Audtion (3)
+Complete "Pazaak Rules" (3)
+Attend Yun Genda's Party (2)
+Sell Sharina's Wraid Plate (2)
+Discover Zelka Forn's Secret (1)
+
+Changed Tasks:
+--------------
+In Group 3: Above 30 Net Demolitions Skill -> Above 30 Net Stealth Skill
+In Group 4: Kill all Kinrath on Dantooine -> Kill a Hive Kinrath
+In Group 5: Rakghoul Serum -> Complete "Rakghoul Serum"
+In Group 5: Shoot Down 30 Sith Fighters -> Win 4 Fighter Skirmishes
+In Group 6: Five lightsabers of different colors -> 5 Different Lightsaber Colors
+In Group 15: Visit Yuthura on Dantooine -> Talk to Yuthura on Dantooine
+In Group 16: 150 Maximum Vitality -> 250 Maximum Vitality
+In Group 17: 300 Maximum Force Points -> 250 Maximum Force Points
+In Group 18: 13 Unique power crystals -> 13 Unique Lightsaber Power Crystals
+In Group 22: 30 Completed Quests in Journal -> 40 Completed Quests in Journal
+In Group 25: 11 Unique Gloves -> All 12 Gloves
+In Group 25: Complete all 8 Companion Sidequests -> Complete all 9 Companion Sidequests
+
+Moved Tasks:
+------------
+Recruit HK-47 from 2 to 4
+Convict Both Rickard and Handon to 4
+Kill a Rancor to 5
+
+Qel-Droma Robes from 5 to 6
+Jenruax Crystal from 8 to 7
+Kill Darth Bandon from 4 to 8
+Complete "Mission for the Republic" from 14 to 9
+Carbonite Projector Mark II from 10 to 9
+Kill Juhani and Belaya from 10 to 9
+Redeem Ajunta Pall's spirit from 9 to 10
+Get Banned From Manaan from 18 to 10
+Kill Kel Algwinn from 7 to 10
+
+Kill Zuulan from 12 to 11
+ICE Breaker from 6 to 11
+Fully Upgraded Bendak's Blaster from 11 to 12
+Purchase a Store's Entire Inventory from 18 to 12
+GenoHaradan Blaster from 13 to 12
+Naga Sadow's Poison Blade from 14 to 12
+GenoHaradan Power Gloves from 15 to 13
+Circlet of Saresh from 14 to 13
+Defeat Both Defense Droids from 16 to 14
+Token from Tortured Selkath from 15 to 14
+100,000 Credits from 17 to 14
+Talk to Yuthura on Dantooine from 14 to 15
+Have Sunry Declared Innocent from 12 to 15
+
+Complete All Dantooine Quests from 17 to 16
+Achieve Level 20 from 20 to 18
+
+Kill Saul Karath to from 21 to 20
+Verpine Prototype Shield from 21 to 20
+Kill Calo, Davik, Bandon, and Saul from 22 to 21
+All 10 Armbands from 22 to 21
+All 23 Blaster Pistols from 23 to 21
+Dominator Gauntlets from 23 to 21
+Adrenaline Stimulator from 23 to 21
+Level 8 in two classes from 21 to 22
+Clear the Leviathan from 24 to 22
+Defeat Every Pazaak Player Once from 21 to 22
+40 Completed Quests in Journal from 24 to 22
+Kill 40 Unique Enemies from 24 to 22
+All 5 Star Maps to from 24 to 22
+All 14 Light Armors from 21 to 23
+Mantle of the Force from 25 to 23
+Heart of the Guardian from 25 to 23
+Ship Parts from 25 to 23
+Kill the One from 25 to 23
+Kill the Trandoshan Smugglers from 25 to 23
+All 14 Medium Armors from 25 to 24
+Complete all 9 Companion Sidequests from 23 to 25
