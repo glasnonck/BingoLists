@@ -47,7 +47,7 @@ bingoList[4] = [
 ];
 bingoList[5] = [
   { name: "Kill a Shyrack Alpha", types: ["Korriban"] },  
-  { name: "Opila Crystal", types: ["Crystal"] },
+  { name: "Opila Crystal", types: ["Crystal", "Opila"] },
   { name: "Kill a Hive Kinrath", types: ["Dantooine"] },
   { name: "15 Tach Glands", types: ["Kashyyyk"] },
   { name: "Qel-Droma Robes", types: ["Korriban", "Robes", "Hunt", "AlignedItem"] },
@@ -146,7 +146,7 @@ bingoList[13] = [
 ];
 bingoList[14] = [
   { name: "Three Third-Tier Force Powers", types: ["Character"] },
-  { name: "Kill Jorak Uln", types: ["Korriban", "Tombs", "Redeem"] },
+  { name: "Kill Jorak Uln", types: ["Korriban", "Tombs", "Redeem", "Opila"] },
   { name: "Token From Tortured Selkath", types: ["Manaan"] }, 
   { name: "Fully Upgraded Armor, Blaster, and Sword", types: ["Upgrade"] },
   { name: "Obtain 7 Complete Area Maps", types: ["Maps"] },
@@ -172,9 +172,9 @@ bingoList[16] = [
   { name: "150 Permanent Maximum Vitality", types: ["Character"] },
   { name: "Complete All 8 Dantooine Quests", types: ["Dantooine","Quests"] },
   { name: "Fully Upgraded Baragwin Assault Blade", types: ["Upgrade"] },
-  { name: "Give Griff a Tach Gland", types: ["Tatooine", "Mission"] },
   { name: "Both Exoskeletons", types: ["Credits"] },
   { name: "All 3 Great Hunt Journals", types: ["Hunt"] },
+  { name: "Kill Four Terentateks", types: ["Hunt"] },
   { name: "All 4 Sith Lord Artifacts", types: ["Tombs", "Korriban", "AlignedItem"] },
 ];
 bingoList[17] = [
@@ -186,7 +186,7 @@ bingoList[17] = [
   { name: "All 5 Advanced Droid Weapons", types: ["Tombs"] },
   { name: "Zaalbar Wielding Bacca's Ceremonial Blade", types: ["Zaalbar","Kashyyyk","Chieftain"] },
   { name: "Raito's Gaderffii", types: ["Tatooine"] },
-  { name: "Kill Four Terentateks", types: ["Hunt"] },
+  { name: "Give Griff a Tach Gland", types: ["Tatooine", "Mission"] },
 ];
 bingoList[18] = [
   { name: "Clear the Sand People Enclave", types: ["Tatooine", "Clear"] },  
