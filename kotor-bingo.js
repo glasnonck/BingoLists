@@ -202,7 +202,7 @@ bingoList[18] = [
 bingoList[19] = [
   { name: "Clear the Shadowlands", types: ["Kashyyyk", "Clear"] },
   { name: "8 Different Jedi Robes", types: ["Robes"] },
-  { name: "Verpine Prototype Shield", types: ["Armband", "Verpine", "Dark", "Leviathan", "Mika"] },
+  { name: "Verpine Prototype Shield", types: ["Armband", "Mandos", "Verpine", "Dark", "Leviathan", "Mika"] },
   { name: "ICE Breaker", types: ["Leviathan", "Maps"] },
   { name: "Five Alignment-Restricted Items", types: ["Tombs", "AlignedItem"] },
   { name: "Three Light Alignment-Restricted Items", types: ["AlignedItem"] },
