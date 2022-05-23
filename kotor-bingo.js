@@ -207,7 +207,7 @@ bingoList[19] = [
   { name: "Five Alignment-Restricted Items", types: ["Tombs", "AlignedItem"] },
   { name: "Three Light Alignment-Restricted Items", types: ["AlignedItem"] },
   { name: "Complete All 11 Tatooine Quests", types: ["Tatooine", "Quests", "TatSwoops"] },
-  { name: "10 Prestige Points", types: ["Korriban"] },
+  { name: "10 Prestige Points", types: ["Korriban", "Redeem"] },
   { name: "Complete All 4 Minigame Quests", types: ["Duel", "Swoops", "Pazaak"] },
 ];
 bingoList[20] = [
